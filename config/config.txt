@@ -220,7 +220,7 @@ WIKIURL https://bluewiki.herma.moe/index.php/Main_Page
 WIKISEARCHURL https://bluewiki.herma.moe/index.php?search=%s&title=Special%3ASearch&fulltext=Search
 
 ## GitHub address
-GITHUBURL https://github.com/WorldServerSS13/WorldServerSS13
+GITHUBURL https://github.com/mabmoro/BlueColonySS13
 
 ## Ban appeals URL - usually for a forum or wherever people should go to contact your admins.
 # BANAPPEALS http://example.com

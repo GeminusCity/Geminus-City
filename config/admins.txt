@@ -6,18 +6,11 @@
 ######################################################################
 
 # not_a_user - Admin
+# shadowkiller104 - Game Admin
+# ncrranger21 - Moderator
+# monos - Trial Moderator
+# herma - Code Wizard
+# n8toe - Developer
 
-maverikknight - Head Admin
-shadowkiller104 - Game Admin
-ncrranger21 - Moderator
-sovietcyanide - Moderator
-rand0mname - Moderator
-monos - Trial Moderator
-fighterslam - Trial Moderator
 
-valzargaming - Host
-herma - Code Wizard
-theflagbearer - Code Wizard
-artofwasd - Code Wizard
-slayingcreepers - Code Wizard
-n8toe - Developer
+silene - Host

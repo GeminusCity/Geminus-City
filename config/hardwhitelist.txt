@@ -13,3 +13,12 @@ gio27 - Chief of Police
 theflagbearer - City Clerk
 robinkhaliq - Chief Medical Officer
 herma - Maintenance Director
+silene - Mayor
+silene - Chief of Police
+silene - City Clerk
+silene - Maintenance Director
+silene - Medical Director
+silene - Research Director
+silene - Judge
+silene - District Prosecutor
+

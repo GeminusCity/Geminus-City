@@ -94,7 +94,7 @@ var/global/datum/global_init/init = new ()
 	callHook("startup")
 	if (config.serverstart_webhook_address != "")
 		send_post_request(config.paic_webhook_address, " { \"embeds\" : \[ { \"title\" : \"Server Starting...\", \"description\" : \"[config.serverstart_webhook_message]\", \"color\" : 1007776 } ] } ", " { \"Content-Type\" : \"application/json\" } ")
-	
+
 	//Emergency Fix
 	load_mods()
 	//end-emergency fix
@@ -703,8 +703,7 @@ proc/setup_old_database_connection()
 	else
 		failed_old_db_connections++		//If it failed, increase the failed connections counter.
 		world.log << dbcon.ErrorMsg()
-		world.log "ERROR: Could not connect to mysql server (old db). Error: [dbcon.ErrorMsg()] - Details: [db]:[address]:[port]","[user]","[pass]", 1
-
+		//world.log "ERROR: Could not connect to mysql server (old db). Error: [dbcon.ErrorMsg()] - Details: [db]:[address]:[port]","[user]","[pass]", 1
 	return .
 
 //This proc is still needed to allow troubleshooting from in-game
