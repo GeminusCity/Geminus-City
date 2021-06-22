@@ -26,7 +26,13 @@
 	description = "The is the official charter provided by Nanotrasen, it cannot be directly edited by presidents but can have amendments suggested. \
 	It is used as reference for legal matters."
 	id = "pollux_charter"
-	value_text = "Placeholder."
+	value_text = "<html> \
+	<head> \
+	</head> \
+	<body> \
+	<iframe width='100%' height='97%' src=\"http://geminuscity.com/index.php?title=Charter_of_the_Republic_of_Pollux&printable=yes\" frameborder=\"0\" id=\"main_frame\"></iframe> \
+	</body> \
+	</html>"
 	value_type = 1
 	bbcode_value = TRUE
 
@@ -73,7 +79,7 @@
 	<head> \
 	</head> \
 	<body> \
-	<iframe width='100%' height='97%' src=\"https://bluewiki.herma.moe/index.php?title=Police_Standard_Operating_Procedure&printable=yes\" frameborder=\"0\" id=\"main_frame\"></iframe> \
+	<iframe width='100%' height='97%' src=\"http://geminuscity.com/index.php?title=Police_Standard_Operating_Procedure&printable=yes\" frameborder=\"0\" id=\"main_frame\"></iframe> \
 	</body> \
 	</html>"
 
