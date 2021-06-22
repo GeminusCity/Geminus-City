@@ -570,7 +570,7 @@ var/world_topic_spam_protect_time = world.timeofday
 	if (config && config.server_name)
 		s += "<b>[config.server_name]</b> &#8212; "
 
-	s += "<b>New World Server | Heavy Roleplaying</b>";
+	s += "<b>Geminus City | Heavy Roleplaying</b>";
 	s += " | Persistent money, partial map saving, elections."
 
 	s += "(<a href=\"https://discord.gg/fp9VxCmZYw\">" //Change this to wherever you want the hub to link to.
