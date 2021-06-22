@@ -202,22 +202,22 @@ GUEST_BAN
 # USEWHITELIST
 
 ## set a server location for world reboot. Don't include the byond://, just give the address and port.
-#SERVER server.net:port
+#SERVER geminuscity.com:7777
 
 ## set a server URL for the IRC bot to use; like SERVER, don't include the byond://
 ## Unlike SERVER, this one shouldn't break auto-reconnect
-#SERVERURL server.net:port
+#SERVERURL geminuscity.com:7777
 
 ## forum address
 # FORUMURL http://example.com
 
 ## Wiki address
-WIKIURL https://bluewiki.herma.moe/index.php/Main_Page
+WIKIURL http://geminuscity.com/index.php?title=Main_Page
 
 ## Wiki search path
 ## Set this to whatever path your wiki uses to search for articles
 ## Use %s to mark where the search query should be inserted
-WIKISEARCHURL https://bluewiki.herma.moe/index.php?search=%s&title=Special%3ASearch&fulltext=Search
+WIKISEARCHURL http://geminuscity.com/index.php?search=%s&title=Special%3ASearch&fulltext=Search
 
 ## GitHub address
 GITHUBURL https://github.com/mabmoro/BlueColonySS13
