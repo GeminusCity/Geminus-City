@@ -22,7 +22,7 @@
 #################################
 
 # Your name.  
-author: N3X15
+author: Silene
 
 # Optional: Remove this file after generating master changelog.  Useful for PR changelogs that won't get used again.
 delete-after: True
@@ -33,14 +33,4 @@ delete-after: True
 # Also, all entries are changed into a single [] after a master changelog generation. Just remove the brackets when you add new entries.
 # Please surround your changes in  double quotes ("), as certain characters otherwise screws up compiling. The quotes will not show up in the changelog.
 changes: 
-  - rscadd: "New PD uniforms and armor fully implimented in vendors"
-  - rscdel: "Removed old PD uniforms in loadout"
-  - maptweak: "added chargers to ground floor of PD"
-  - maptweak: "added paper shredder to hospital"
-  - maptweak: "gave detectives paper and a photocopier, also body bags"
-  - maptweak: "Fixed Psych office access"
-  - maptweak: "Added unsimulated tiles bordering bunker to prevent the city being sucked into space"
-  - maptweak: "Gave PDSI a house plant"
-  - maptweak: "RD Office given modular console"
-  - maptweak: "PD Given EOD suit"
-  - maptweak: "Paid medical vendor in Hospital Lobby, bought items are persistent"
+  - tweak: "Altering variables to fit the new server instead of the old World Server."
