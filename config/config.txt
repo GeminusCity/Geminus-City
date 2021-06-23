@@ -189,7 +189,7 @@ ALLOW_AI
 # DONT_DEL_NEWMOB
 
 ## set a hosted by name for unix platforms
-HOSTEDBY yournamehere
+HOSTEDBY Silene
 
 ## Set to jobban "Guest-" accounts from Captain, HoS, HoP, CE, RD, CMO, Warden, Security, Detective, and AI positions.
 ## Set to 1 to jobban them from those positions, set to 0 to allow them.
@@ -218,6 +218,12 @@ WIKIURL http://geminuscity.com/index.php?title=Main_Page
 ## Set this to whatever path your wiki uses to search for articles
 ## Use %s to mark where the search query should be inserted
 WIKISEARCHURL http://geminuscity.com/index.php?search=%s&title=Special%3ASearch&fulltext=Search
+
+## Rules address
+RULESURL http://geminuscity.com/index.php?title=Rules
+
+## Map address
+MAPURL http://geminuscity.com/index.php?title=Maps
 
 ## GitHub address
 GITHUBURL https://github.com/mabmoro/BlueColonySS13
@@ -455,10 +461,10 @@ ALLOW_BUSINESSES
 MIN_BYOND_AGE 0
 
 #People under this byond age will be automatically given the anti-grief var
-BYOND_ANTIGRIEF_AGE 0
+BYOND_ANTIGRIEF_AGE 1
 
 #People under this player age will be automatically given the anti-grief var
-PLAYER_ANTIGRIEF_AGE 0
+PLAYER_ANTIGRIEF_AGE 1
 
 ## Panic Bunker - Comment out to disable the panic bunker.
 # PANIC_BUNKER
