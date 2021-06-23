@@ -499,10 +499,10 @@ IPR_ALLOW_EXISTING
 IPR_MINIMUM_AGE 5
 
 # Allows antagonists to join from the lobby
-ALLOW_LOBBY_ANTAGONISTS
+#ALLOW_LOBBY_ANTAGONISTS
 
 # Allows people to sell things via exports in the factory
-#ALLOW_EXPORTS
+ALLOW_EXPORTS
 
 # Set the Discord Webhook address for sending server start and PAI Candidate pings
 #SERVERSTART_WEBHOOK_ADDRESS
