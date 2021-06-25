@@ -130,7 +130,7 @@
 	minimum_character_age = 23
 
 	outfit_type = /decl/hierarchy/outfit/job/security/officer
-	alt_titles = list("Police Cadet" = /decl/hierarchy/outfit/job/security/cadet,"Traffic Officer" = /decl/hierarchy/outfit/job/security/traffic)
+	alt_titles = list("Traffic Officer" = /decl/hierarchy/outfit/job/security/traffic)
 
 	clean_record_required = TRUE
 
@@ -143,5 +143,41 @@
 
 
 /datum/job/officer/get_job_email()
+	return using_map.police_email
+
+
+/datum/job/pol_cadet
+	title = "Police Cadet"
+
+	flag = POL_CADET
+	faction = "City"
+	department = DEPT_POLICE
+	department_flag = ENGSEC
+	total_positions = 10
+	spawn_positions = 10
+	supervisors = "Non-cadet police"
+	selection_color = "#601C1C"
+	idtype = /obj/item/weapon/card/id/security/pol_cadet
+	wage = 750
+	synth_wage = 375
+
+	access = list(access_security, access_eva, access_sec_doors, access_brig, access_maint_tunnels, access_morgue, access_external_airlocks)
+	minimal_access = list(access_security, access_eva, access_sec_doors, access_brig, access_maint_tunnels, access_external_airlocks)
+	minimal_player_age = 1
+	minimum_character_age = 22
+
+	outfit_type = /decl/hierarchy/outfit/job/security/cadet
+
+	clean_record_required = TRUE
+
+	description = "Welcome to hell. Between the actual criminals and the criminally insane, \
+	this is the first day on your trip downhill into a meltdown, so have fun! \
+	Your duties are simple, just read Pollux Law, and any relevant procedures and regulations, \
+	and enforce them within reason, or don't."
+
+	duties = list("Learn the ropes", "Suck up to the chief", "Try not to be shitcurity", "Empty the donut box", "Survive")
+
+
+/datum/job/pol_cadet/get_job_email()
 	return using_map.police_email
 

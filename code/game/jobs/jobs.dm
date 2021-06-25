@@ -13,6 +13,7 @@ var/const/AI					=(1<<8)
 var/const/CYBORG				=(1<<9)
 
 var/const/PARAMEDIC				=(1<<10)
+var/const/POL_CADET				=(1<<11)
 
 var/const/MEDSCI				=(1<<1)
 
@@ -150,7 +151,8 @@ var/list/security_positions = list(
 	"Prison Warden",
 	"Detective",
 	"Police Officer",
-	"District Prosecutor"
+	"District Prosecutor",
+	"Police Cadet"
 )
 
 

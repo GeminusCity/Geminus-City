@@ -87,6 +87,6 @@
 	head = /obj/item/clothing/head/police/policecadetcap
 	uniform = /obj/item/clothing/under/rank/policecadetalt
 	l_pocket = /obj/item/device/flash
-	id_type = /obj/item/weapon/card/id/security/officer
+	id_type = /obj/item/weapon/card/id/security/pol_cadet
 	pda_type = /obj/item/device/pda/security
 

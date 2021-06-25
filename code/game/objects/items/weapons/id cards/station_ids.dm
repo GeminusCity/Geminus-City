@@ -324,6 +324,11 @@
 	rank = "Police Officer"
 	job_access_type = /datum/job/officer
 
+/obj/item/weapon/card/id/security/pol_cadet
+	assignment = "Police Cadet"
+	rank = "Police Cadet"
+	job_access_type = /datum/job/pol_cadet
+
 /obj/item/weapon/card/id/security/detective
 	assignment = "Detective"
 	rank = "Detective"
