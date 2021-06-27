@@ -14,3 +14,5 @@
 
 
 silene - Host
+gidgit - Developer
+ferhargo - Trial Moderator
