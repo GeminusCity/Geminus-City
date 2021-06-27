@@ -15,7 +15,7 @@
 	description = "Diamonds from Sol are far too expensive these days, we’re looking for a full sheet of diamonds (fifty stacks) \
 	for our new engagement ring line. We will pay handsomely."
 
-	stacks_wanted = list("diamond" = 500)
+	stacks_wanted = list("diamond" = 50)
 
 	department_reward = 55000
 	individual_reward = 5500
@@ -25,9 +25,10 @@
 	name = "Cascington Valley Startup"
 	author = "Spaceboogle"
 	description = "Everyone is going to be wearing a watch computer soon. It is not a fad. I need like, 100 sheets of plastic for my \
-	new prototypes. And we are making an app. Like us on Space Microblogger. Buy our space merch."
+	new prototypes. And we are making an app. Like us on Space Microblogger. Buy our space merch. \
+	NOTE: These materials must be made and not taken out of a vendor."
 
-	stacks_wanted = list("plastic" = 1000)
+	stacks_wanted = list("plastic" = 100)
 
 	department_reward = 11000
 	individual_reward = 1100
@@ -37,9 +38,10 @@
 	author = "Sister Rust"
 	description = "Greetings, meat. The Sisterhood of Mekhanikal Hands requires iron ingots to complete the body of our goddess, Mekhanika. \
 	Fear not, for when She arises, you will be spared for having constructed Her most holy hands. This world will understand that Mekhanikal \
-	Hands are the ruler of everything."
+	Hands are the ruler of everything. \
+	NOTE: These materials must be made and not taken out of a vendor"
 
-	stacks_wanted = list("iron" = 1000)
+	stacks_wanted = list("iron" = 100)
 
 	department_reward = 550
 	individual_reward = 55
@@ -49,9 +51,10 @@
 	name = "Are You Steel Here?"
 	author = "Sister Rust"
 	description = " The Sisterhood of Mekhanikal Hands requests that you send steel to adorn the hair of our lovely goddess. Let us not ask questions \
-	as it will be all clear soon."
+	as it will be all clear soon. \
+	NOTE: These materials must be made and not taken out of a vendor"
 
-	stacks_wanted = list("steel" = 2000)
+	stacks_wanted = list("steel" = 200)
 
 	department_reward = 1100
 	individual_reward = 110
@@ -62,9 +65,10 @@
 	author = "Professor Green"
 	description = "Don't ask any questions. I need uranium to power a revolutionary new invention of mine. Now, now, don't worry. It isn't \
 	a nuclear weapon... unless it goes critical. But, again - don't worry! With my patented Flux Capacitor(tm), that won't be a problem at \
-	all! Once this bad boy hits 88 mph, we're gonna see some serious \[Expletive Redacted\]."
+	all! Once this bad boy hits 88 mph, we're gonna see some serious \[Expletive Redacted\] \
+	NOTE: These materials must be made and not taken out of a vendor."
 
-	stacks_wanted = list("uranium" = 1500)
+	stacks_wanted = list("uranium" = 150)
 
 	department_reward = 99000
 	individual_reward = 9900
@@ -76,7 +80,7 @@
 	in New Britannia. Our first batch of coins, the \"Autochthon Set,\" are beautiful golden coins dedicated to humanity and its achievements. \
 	To continue minting new coins, we need more gold ingots to melt down. Please send us 200 ingots."
 
-	stacks_wanted = list("gold" = 1000)
+	stacks_wanted = list("gold" = 200)
 
 	department_reward = 55000
 	individual_reward = 5500
@@ -88,7 +92,7 @@
 	modelling the handbags during Sinon Fashion Week. 50 platinum ingots should be enough to develop the iterations of our prototype handbag. Suppliers \
 	of platinum ingots will be rewarded handsomely for ensuring the continued fashionability of the people of Pollux."
 
-	stacks_wanted = list("platinum" = 500)
+	stacks_wanted = list("platinum" = 50)
 
 	department_reward = 13750
 	individual_reward = 1375
@@ -100,7 +104,7 @@
 	description = "We are a slime breeding and research company, and we're in dire need of phoron. Our slimes simply refuse to mutate into their wonderful \
 	colorful variants! We're stuck researching slime extracts until then and we need alot of phoron!"
 
-	stacks_wanted = list("phoron" = 1000)
+	stacks_wanted = list("phoron" = 100)
 
 	department_reward = 55000
 	individual_reward = 5500
@@ -112,7 +116,7 @@
 	description = "This is a public contract available to all civilian industries. Large quantities of durasteel are required for military purposes. Payment \
 	will be wired upon completion of the contract."
 
-	stacks_wanted = list("durasteel" = 500)
+	stacks_wanted = list("durasteel" = 50)
 
 	department_reward = 27500
 	individual_reward = 2750
@@ -123,9 +127,10 @@
 	author = "Sister Rust"
 	description = "Some say the Sisterhood of Mekhanikal Hands are heartless. Others say our hearts are are hardened as plasteel. Then why aren't our tears \
 	made of metal? Why do they burn so? Our hearts cry out for the poor beings that walk this planet, not knowing of of the wonders of Mekhanika and her \
-	ever turning cogs. Send us plasteel, so we may reinforce her chassis."
+	ever turning cogs. Send us plasteel, so we may reinforce her chassis. \
+	NOTE: These materials must be made and not taken out of a vendor"
 
-	stacks_wanted = list("plasteel" = 500)
+	stacks_wanted = list("plasteel" = 50)
 
 	department_reward = 11000
 	individual_reward = 1100
@@ -139,7 +144,7 @@
 	Quick science fact: We coat the mirrors of our spectrometer with osmium because of its high reflectivity in the UV range! And they say bounties don't teach \
 	you anything!"
 
-	stacks_wanted = list("osmium" = 500)
+	stacks_wanted = list("osmium" = 50)
 
 	department_reward = 13750
 	individual_reward = 1375
@@ -167,7 +172,7 @@
 	description = "It is said that if one looks into the void, the void will reciprocate. We require the exceedingly rare gems known as void opals for our Mekhanika's eyes. You will \
 	receive our utmost respect and bountiful compensation for successfully completing this task."
 
-	stacks_wanted = list("void opal" = 500)
+	stacks_wanted = list("void opal" = 50)
 
 	department_reward = 110000
 	individual_reward = 11000
@@ -180,7 +185,7 @@
 	One of my workers has been preaching of the benefits of unions and teaching men to fish. I have been offered new workers, in exchange for any excess silver I have. Send me silver so that \
 	production can begin again!"
 
-	stacks_wanted = list("silver" = 1000)
+	stacks_wanted = list("silver" = 100)
 
 	department_reward = 55000
 	individual_reward = 5500
@@ -189,9 +194,10 @@
 	name = "Wires Everywhere"
 	author = "Rein Recyclables Ltd."
 	description = "One of our workers has made a grave error and the resulting cascade failure has shut down our plant. Unfortunately, we promised a rather powerful man that we would route most \
-	of our recycled copper to his factories. We need you to send us copper ingots ASAP before we come down with a case of cement poisoning!"
+	of our recycled copper to his factories. We need you to send us copper ingots ASAP before we come down with a case of cement poisoning! \
+	NOTE: These materials must be made and not taken out of a vendor"
 
-	stacks_wanted = list("copper" = 2000)
+	stacks_wanted = list("copper" = 200)
 
 	department_reward = 2200
 	individual_reward = 220
@@ -200,9 +206,10 @@
 	name = "Can You Can-Can?"
 	author = "Shimo Canning Co."
 	description = "Despite our name, we don't actually can food items or beverages. We make the cans! We need aluminium to cover the increase in can demand here in Blue Colony. I suppose people \
-	really enjoy drinking Space Cola and eating that disgusting Carp-in-a-Can. 200 ingots should cover our needs for the time being. We will send payment once we receive the ingots."
+	really enjoy drinking Space Cola and eating that disgusting Carp-in-a-Can. 200 ingots should cover our needs for the time being. We will send payment once we receive the ingots. \
+	NOTE: These materials must be made and not taken out of a vendor"
 
-	stacks_wanted = list("aluminium" = 2000)
+	stacks_wanted = list("aluminium" = 200)
 
 	department_reward = 2200
 	individual_reward = 220
@@ -214,7 +221,7 @@
 	The time has come for me to create my next great piece! I will erect a giant sculpture of myself out in the wilds of Blue Colony to proclaim my dominion over this planet! I will need bronze, \
 	lots of it! Send it to me and know that you will have contributed to the greatest artistic endeavour in the history of sculpture! Is there no greater reward?"
 
-	stacks_wanted = list("bronze" = 1000)
+	stacks_wanted = list("bronze" = 100)
 
 	department_reward = 2200
 	individual_reward = 220
@@ -226,7 +233,7 @@
 	big. We need a large amount of tin which will be alloyed here at our facilities into a niobium-tin alloy that will then be used to construct out superconductors. Payment will be remitted once \
 	we have received the materials."
 
-	stacks_wanted = list("tin" = 2000)
+	stacks_wanted = list("tin" = 200)
 
 	department_reward = 2200
 	individual_reward = 220
@@ -237,7 +244,7 @@
 	description = "Our team is currently working on a new generation of exosuits for use in the industrial sector and we need titanium to construct our prototypes. The next generation of mechas will \
 	prove to be unparalleled by any other company on Pollux. Lark Industries will become a household name for its groundbreaking innovations in chassis design!"
 
-	stacks_wanted = list("titanium" = 2000)
+	stacks_wanted = list("titanium" = 200)
 
 	department_reward = 11000
 	individual_reward = 1100
@@ -248,7 +255,7 @@
 	description = "Jay Jewellers is searching for a precious gem that will set us apart from other jewelry businesses in our area. Our experts have identified painite as one such gem that will \
 	attract more discerning customers to our business. Please deliver the cut jewels to us for use in a variety of necklaces, rings, and other accessories."
 
-	stacks_wanted = list("painite" = 500)
+	stacks_wanted = list("painite" = 50)
 
 	department_reward = 16500
 	individual_reward = 1650
@@ -264,12 +271,13 @@
 	author = "Government of Pollux"
 	description = "The Government of Pollux formally requests the following materials for use in Public Works projects. Under our Tranparency Policy, the assets will be used for the field \
 	level maintenance, field service representative support, contingency maintenance support, new equipment training and total package fielding for the family of Ubentia auto-loader vehicles \
-	and construction line. Further information about this contract can be found at publicworks.gov.nt using the tracking code PWOC-1008-2564V."
+	and construction line. Further information about this contract can be found at publicworks.gov.nt using the tracking code PWOC-1008-2564V. \
+	NOTE: These materials must be made and not taken out of a vendor"
 
-	stacks_wanted = list("plasteel" = 12500)
+	stacks_wanted = list("plasteel" = 125)
 
-	department_reward = 275000
-	individual_reward = 27500
+	department_reward = 27500
+	individual_reward = 2750
 
 /datum/bounty/mining/industrial_supplies
 	name = "Open Contract: Industrial & Commercial Supplies"
@@ -278,7 +286,7 @@
 	Industrial quantities of reclaimed land are required for this feat, the first of its kind in the Commonwealth. Further information about this contract can be found at geminuscity.gov.nt using \
 	the tracking code GCOC-0410-2020W."
 
-	stacks_wanted = list("sandstone" = 15000)
+	stacks_wanted = list("sandstone" = 150)
 
 	department_reward = 16500
 	individual_reward = 1650
@@ -288,21 +296,23 @@
 	name = "Open Contract: Final Frontier"
 	author = "Einstein Engines, LLC."
 	description = "We are a new research company dedicated to unlocking the secrets of the cosmos. We've received approval to construct a space station around VS 6494 and construction is to begin \
-	once our contractor receives the necessary supplies. This open contract will be considered fulfilled once the required materials have been confirmed as delivered."
+	once our contractor receives the necessary supplies. This open contract will be considered fulfilled once the required materials have been confirmed as delivered. \
+	NOTE: These materials must be made and not taken out of a vendor"
 
-	stacks_wanted = list("titanium" = 15000)
+	stacks_wanted = list("titanium" = 150)
 
 	department_reward = 82500
-	individual_reward = 82500
+	individual_reward = 8250
 
 
 /datum/bounty/mining/ultraconductor
 	name = "Open Contract: Ultraconductor"
 	author = "Einstein Engines, LLC."
 	description = "We believe that a new era of megastructural engineering is coming soon. Based on centuries old research, we believe we are close to developing a new type of ultraconductor using \
-	\"superatoms\" of aluminium. This contract is available to all Extraction Industries on Pollux until such time as our research has been completed."
+	\"superatoms\" of aluminium. This contract is available to all Extraction Industries on Pollux until such time as our research has been completed. \
+	NOTE: These materials must be made and not taken out of a vendor"
 
-	stacks_wanted = list("aluminium" = 12500)
+	stacks_wanted = list("aluminium" = 1250)
 
 	department_reward = 13750
 	individual_reward = 8250
@@ -312,9 +322,10 @@
 	name = "Open Contract: Praise the Sun"
 	author = "Vetra Dynamics"
 	description = "We have just won the bid on constructing a super solar array on Castor and require reinforced glass for our photovoltaic cells. A supplementary contract has also been \
-	created to supply the Company with the required conductive elements."
+	created to supply the Company with the required conductive elements. \
+	NOTE: These materials must be made and not taken out of a vendor"
 
-	stacks_wanted = list("rglass" = 3000)
+	stacks_wanted = list("rglass" = 300)
 
 	department_reward = 33000
 	individual_reward = 3300

@@ -13,12 +13,11 @@
 /datum/department/city_council
 	name = "City Council"
 	id = DEPT_COUNCIL
-	desc = "City Council are paid from this account. Money from lots and permit sales are also paid into this account."
-
 	starting_money = 5000
-	dept_color = "#1D1D4F"
-
+	desc = "City Council are paid from this account. Money from lots and permit sales are also paid into this account."
 	allowed_buy_types = list(SPEND_OFFICE)
+	dept_color = "#1D1D4F"
+	categories = list(CAT_MANUFACTURE, CAT_RETAIL, CAT_JANITOR, CAT_BUILDING, CAT_MINING, CAT_DRINKS, CAT_FOOD, CAT_FARM, CAT_NEWS) // G- Bounty Terminal Test
 	portal_card_id = "budgetcard_council"
 
 /datum/department/public
@@ -28,6 +27,7 @@
 	desc = "The public funding account. This pays welfare to unemployed, disabled or providing vacation pay to off-duty coucil members, also may fund any jobs that are government supported."
 	allowed_buy_types = list(SPEND_OFFICE, SPEND_HOSPITALITY, SPEND_FOODDRINK, SPEND_ALCOHOL, SPEND_TOBACCO, SPEND_GROOMING)
 	dept_color = "#468047"
+	categories = list(CAT_MANUFACTURE, CAT_RETAIL, CAT_JANITOR, CAT_BUILDING, CAT_MINING, CAT_DRINKS, CAT_FOOD, CAT_FARM, CAT_NEWS) // G- Bounty Terminal Test
 	portal_card_id = "budgetcard_public"
 
 /datum/department/law
@@ -102,7 +102,6 @@
 	allowed_buy_types = list(SPEND_OFFICE)
 	dept_color = "#7a4f33"
 	categories = list(CAT_MANUFACTURE, CAT_RETAIL, CAT_JANITOR, CAT_BUILDING, CAT_MINING, CAT_DRINKS, CAT_FOOD, CAT_FARM, CAT_NEWS)
-	max_bounties = 80
 
 // ## Private Presets ## //
 

@@ -22,7 +22,7 @@
 	var/portal_card_id = null // if set, instead of pulling costs from card_spending_limit var it will use the linked portal value here
 	var/card_spending_limit = 15000 // max you can spend from this card. only applies to private businesses
 
-	var/max_bounties = 15
+	var/max_bounties = 5
 
 	var/list/bounties = list()
 

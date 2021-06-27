@@ -1,7 +1,7 @@
 /datum/bounty/food
 	category = CAT_FOOD
 	days_until_expiry = 15
-	delete_upon_completion = FALSE
+	delete_upon_completion = TRUE
 	tax_type = FOOD_TAX
 
 /datum/bounty/food/hamburger_joint
