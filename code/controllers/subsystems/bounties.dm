@@ -5,14 +5,14 @@ SUBSYSTEM_DEF(bounties)
 	var/list/bounty_types = list()
 	var/list/active_bounties = list()
 
-	var/bounty_interval = 1 HOUR
-	var/next_bounties = 1 HOUR
-
+	var/bounty_interval = 30 MINUTES
+	var/next_bounties = 30 MINUTES
 
 /datum/controller/subsystem/bounties/Initialize(timeofday)
 	initialize_bounties()
 
-	// get some new round start bounties.
+	// get some new round start bounties.  G- Look into if Bounties are the same round to round after save
+	roundstart_distribute_bounties()
 	distribute_bounties()
 
 	return ..()
@@ -32,6 +32,13 @@ SUBSYSTEM_DEF(bounties)
 
 	return TRUE
 
+// G- We call two here, as distribute_bounties() calls in one as well
+/datum/controller/subsystem/bounties/proc/roundstart_distribute_bounties()
+	for(var/datum/department/D in GLOB.departments)
+		assign_new_bounty(D)
+		assign_new_bounty(D)
+
+	return TRUE
 
 /datum/controller/subsystem/bounties/proc/distribute_bounties()
 	for(var/datum/department/D in GLOB.departments)
