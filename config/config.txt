@@ -226,7 +226,7 @@ RULESURL http://geminuscity.com/index.php?title=Rules
 MAPURL http://geminuscity.com/index.php?title=Maps
 
 ## GitHub address
-GITHUBURL https://github.com/mabmoro/BlueColonySS13
+GITHUBURL https://github.com/GeminusCity/Geminus-City
 
 ## Ban appeals URL - usually for a forum or wherever people should go to contact your admins.
 # BANAPPEALS http://example.com
