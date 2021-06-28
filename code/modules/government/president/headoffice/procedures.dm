@@ -26,13 +26,7 @@
 	description = "The is the official charter provided by Nanotrasen, it cannot be directly edited by presidents but can have amendments suggested. \
 	It is used as reference for legal matters."
 	id = "pollux_charter"
-	value_text = "<html> \
-	<head> \
-	</head> \
-	<body> \
-	<iframe width='100%' height='97%' src=\"http://geminuscity.com/index.php?title=Charter_of_the_Republic_of_Pollux&printable=yes\" frameborder=\"0\" id=\"main_frame\"></iframe> \
-	</body> \
-	</html>"
+	value_text = "Placeholder."
 	value_type = 1
 	bbcode_value = TRUE
 
@@ -75,13 +69,7 @@
 	name = "Police Standard Operating Procedure"
 	description = "This is the police's standard operating procedure, it is expected to be followed at all times by police officers."
 	id = "police_sop"
-	value_text = "<html> \
-	<head> \
-	</head> \
-	<body> \
-	<iframe width='100%' height='97%' src=\"http://geminuscity.com/index.php?title=Police_Standard_Operating_Procedure&printable=yes\" frameborder=\"0\" id=\"main_frame\"></iframe> \
-	</body> \
-	</html>"
+	value_text = "Placeholder."
 
 /datum/persistent_option/value/procedure/department/prisoner_handling
 	name = "Prisoner Handling Procedures"
