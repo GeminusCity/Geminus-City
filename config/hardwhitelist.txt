@@ -6,4 +6,5 @@ silene - Medical Director
 silene - Research Director
 silene - Judge
 silene - District Prosecutor
-
+silene - Nanotrasen CEO
+ferhargo - PDSI Agent
