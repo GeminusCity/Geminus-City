@@ -16,13 +16,12 @@
 #   rscdel (general deleting of nice things)
 #   imageadd
 #   imagedel
-#   maptweak
 #   spellcheck (typo fixes)
 #   experiment
 #################################
 
 # Your name.  
-author: "
+author: Silene
 # Optional: Remove this file after generating master changelog.  Useful for PR changelogs that won't get used again.
 delete-after: True
 # Any changes you've made.  See valid prefix list above.
@@ -31,5 +30,6 @@ delete-after: True
 # Also, this gets changed to [] after reading.  Just remove the brackets when you add new shit.
 # Please surround your changes in  double quotes ("). It works without them, but if you use certain characters it screws up compiling. The quotes will not show up in the changelog.
 changes: 
-  - rscadd: "Added a changelog editing system that should cause fewer conflicts and more accurate timestamps."
-  - rscdel: "Killed innocent kittens."
+  - maptweak: "Corrected dont-save variables for a number of items on the map"
+  - rscadd: "Added description to some jobs that were missing them, still have more work to do"
+  - rscadd: "Added Homeless alt-title for Civilian for those wanting to live the hobo life"

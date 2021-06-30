@@ -101,8 +101,8 @@
 	outfit_type = /decl/hierarchy/outfit/job/nanotrasen/ceo
 	idtype = /obj/item/weapon/card/id/nanotrasen/ceo
 
-	description = "As vice president, your duty is to patiently wait in line for the president to be killed so you can succeed them. Otherwise you're \
-	there to help president do his daily tasks."
+	description = "You are the CEO of Nanotrasen, one of the most powerful Trans-Stellar Megacorporations. Your power in the colony is unmatched.\
+	Enjoy."
 
 	portal_whitelist = "cabinet_ceo"
 	access = list(access_ceo, access_advisor, access_cent_general, access_cent_thunder, access_cent_medical, access_cent_living, access_cent_storage, access_cent_teleporter) 			//See get_access()

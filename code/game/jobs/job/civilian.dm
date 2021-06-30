@@ -24,7 +24,8 @@
 					"Traveller",
 					"Entrepreneur",
 					"Visitor" = /decl/hierarchy/outfit/job/assistant/visitor,
-					"Resident" = /decl/hierarchy/outfit/job/assistant/resident)
+					"Resident" = /decl/hierarchy/outfit/job/assistant/resident,
+					"Homeless")
 
 	description = "You are a normal, average citizen. You can be many things - someone who lives in the city, an investor, a tourist, a socialite, \
 	even an aspiring businessman. You recieve a small stipend from the government to fund your living expenses until you find a job. \
