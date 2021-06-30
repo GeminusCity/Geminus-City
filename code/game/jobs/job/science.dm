@@ -66,9 +66,17 @@
 	minimal_player_age = 3
 
 	outfit_type = /decl/hierarchy/outfit/job/science/scientist
-	alt_titles = list("Xenoarchaeologist" = /decl/hierarchy/outfit/job/science/xenoarchaeologist, "Anomalist", "Phoron Researcher")
+	alt_titles = list("Xenoarchaeologist" = /decl/hierarchy/outfit/job/science/xenoarchaeologist, "Anomalist")
 
 	clean_record_required = TRUE
+
+	description = "As a scientist, your job is to advance the state of the art. Research and develop new technologies, locate and \
+	study ancient artifacts, and otherwise be the smartest person in the city."
+
+	duties = list("Work on research levels",
+	"Find and analyze artifacts and anomalies",
+	"Prove your intellect to the masses",
+	"Try not to be too much of a mad scientist")
 
 /datum/job/xenobiologist
 	title = "Xenobiologist"
@@ -92,6 +100,14 @@
 	alt_titles = list("Xenobotanist")
 
 	clean_record_required = TRUE
+
+	description = "Xenobiologists/xenobotanists are responsible for raising slimes and unusual plant life, then dissecting them \
+	mercilessly to accomplish different effects. While other scientists play at true knowledge, you know that \
+	you've unlocked the secrets of life itself."
+
+	duties = list("Raise slimes and cross-breed weird plants",
+	"Play God",
+	"Don't die to your creations")
 
 /datum/job/roboticist
 	title = "Roboticist"
