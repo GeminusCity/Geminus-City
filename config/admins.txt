@@ -15,4 +15,4 @@
 
 silene - Host
 gidgit - Developer
-ferhargo - Moderator
+vlad777 - Developer
