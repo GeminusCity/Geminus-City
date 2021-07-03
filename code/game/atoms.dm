@@ -371,6 +371,11 @@
 /atom/proc/transfer_fingerprints_to(var/atom/A)
 
 	sanitize_for_saving()
+	
+	if(A.fingerprints == null)
+		A.fingerprints = list()
+	if(A.fingerprintshidden == null)
+		A.fingerprintshidden = list()
 
 	//skytodo
 	//A.fingerprints |= fingerprints            //detective
