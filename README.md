@@ -1,10 +1,10 @@
-[![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/GeneriedJenelle/The-World-Server-Redux) 
+[![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/GeminusCity/Geminus-City) 
 
-# The-World-Server-Redux
+# Geminus-City
 
-[Forums](http://geminus.city/forums/index.php) - [Wiki](https://bluewiki.herma.moe/index.php/Main_Page) - [Discord](https://discord.gg/RDFXGu4tb6)
+[Wiki](http://geminuscity.com/index.php?title=Main_Page) - [Discord](https://discord.gg/fp9VxCmZYw)
 
-World Server is a fork of the Polaris code branch for the game Spacestation13.
+Geminus City is a fork of Blue Colony, which itself is a fork of World Server, which is ITSELF a fork of the Polaris code branch for the game Spacestation13.
 
 ---
 
@@ -24,11 +24,11 @@ All assets including icons and sound are under a [CC BY-SA 3.0](http://creativec
 ### GETTING THE CODE
 The simplest way to obtain the code is using the github .zip feature.
 
-Click [here](https://github.com/GeneriedJenelle/The-World-Server-Redux/archive/master.zip) to get the latest code as a .zip file, then unzip it to wherever you want.
+Click [here](https://github.com/GeminusCity/Geminus-City/archive/refs/heads/master.zip) to get the latest code as a .zip file, then unzip it to wherever you want.
 
 The more complicated and easier to update method is using git.  You'll need to download git or some client from [here](http://git-scm.com/).  When that's installed, right click in any folder and click on "Git Bash".  When that opens, type in:
 
-    git clone https://github.com/GeneriedJenelle/The-World-Server-Redux.git
+    git clone https://github.com/GeminusCity/Geminus-City.git
 
 (hint: hold down ctrl and press insert to paste into git bash)
 
@@ -36,8 +36,8 @@ This will take a while to download, but it provides an easier method for updatin
 
 Once the repository is in place, run this command:
 ```bash
-cd The-World-Server-Redux
-git update-index --assume-unchanged The-World-Server-Redux.int
+cd Geminus-City
+git update-index --assume-unchanged Geminus-City.int
 ```
 Now git will ignore changes to the file polaris.int.
 
