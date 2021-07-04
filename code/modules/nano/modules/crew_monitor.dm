@@ -19,20 +19,22 @@
 	var/data[0]
 	if(program)
 		data = program.get_header_data()
-	var/turf/T = get_turf(nano_host())
 
 	data["isAI"] = isAI(user)
-	data["crewmembers"] = crew_repository.health_data(T)
+	data["crewmembers"] = list()
+	for(var/z_level in using_map.station_levels)
+		data["crewmembers"] |= crew_repository.health_data(z_level)
+	//data["map_levels"] = using_map.station_levels
 
 	ui = SSnanoui.try_update_ui(user, src, ui_key, ui, data, force_open)
 	if(!ui)
 		ui = new(user, src, ui_key, "crew_monitor.tmpl", "Crew Monitoring Computer", 900, 800, state = state)
-
+		/* Map removed until good times - vlad777
 		// adding a template with the key "mapContent" enables the map ui functionality
 		ui.add_template("mapContent", "crew_monitor_map_content.tmpl")
 		// adding a template with the key "mapHeader" replaces the map header content
 		ui.add_template("mapHeader", "crew_monitor_map_header.tmpl")
-
+		*/
 		ui.set_initial_data(data)
 		ui.open()
 
