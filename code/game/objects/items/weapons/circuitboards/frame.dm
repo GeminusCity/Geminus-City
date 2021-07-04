@@ -105,7 +105,7 @@
 /obj/item/weapon/circuitboard/photocopier
 	name = T_BOARD("photocopier")
 	build_path = /obj/machinery/photocopier/
-	board_type = new /datum/frame/frame_types/machine
+	board_type = new /datum/frame/frame_types/photocopier
 	origin_tech = list(TECH_MATERIAL =1, TECH_DATA = 1)
 	req_components = list(
 							/obj/item/weapon/stock_parts/matter_bin = 2,
