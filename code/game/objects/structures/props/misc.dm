@@ -15,3 +15,33 @@
 	density = TRUE
 	anchored= TRUE
 	interaction_message = "An old fortten gift machine. The treasures it once held have been lost to time or found a new home inside a pawnshop."
+
+/obj/structure/prop/water_fountain
+	name = "water fountain"
+	desc = "A water fountain for drinking, naturally."
+	icon = 'icons/obj/watercloset.dmi'
+	icon_state = "water_fountain"
+	interaction_message = "<span class = 'notice'>You sip some water from fontain.</span>"
+
+/obj/structure/prop/water_fountain/attack_hand(mob/living/user)
+	if(!istype(user, /mob/living/carbon/human))
+		return FALSE
+
+	var/mob/living/carbon/human/H = user
+	if(!H.check_has_mouth())
+		to_chat(user, "How do you want to drink water? You don't have a mouth!")
+		return FALSE
+
+	var/obj/item/blocked = H.check_mouth_coverage()
+	if(blocked)
+		user << "<span class='warning'>\The [blocked] is in the way!</span>"
+		return FALSE
+
+	user.setClickCooldown(user.get_attack_speed(src))
+	playsound(user.loc, 'sound/items/drink.ogg', rand(10, 50), 1)
+
+	var/datum/reagents/reagents = new /datum/reagents
+	reagents.add_reagent("water", 5)
+	reagents.trans_to_mob(user, issmall(user) ? 2.5 : 5, CHEM_INGEST)
+	qdel(reagents)
+	..()
