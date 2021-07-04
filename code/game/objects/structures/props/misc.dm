@@ -58,3 +58,4 @@
 	var/datum/reagents/reagents = new /datum/reagents
 	reagents.add_reagent("water", 5)
 	reagents.trans_to_holder(R.reagents, 5)
+	qdel(reagents)
