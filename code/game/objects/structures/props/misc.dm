@@ -21,7 +21,7 @@
 	desc = "A water fountain for drinking, naturally."
 	icon = 'icons/obj/watercloset.dmi'
 	icon_state = "water_fountain"
-	interaction_message = "<span class = 'notice'>You sip some water from fontain.</span>"
+	interaction_message = "<span class='notice'>You sip some water from fountain.</span>"
 
 /obj/structure/prop/water_fountain/attack_hand(mob/living/user)
 	if(!istype(user, /mob/living/carbon/human))
@@ -29,7 +29,7 @@
 
 	var/mob/living/carbon/human/H = user
 	if(!H.check_has_mouth())
-		to_chat(user, "How do you want to drink water? You don't have a mouth!")
+		to_chat(user, "<span class='warning'>How do you want to drink water? You don't have a mouth!</span>")
 		return FALSE
 
 	var/obj/item/blocked = H.check_mouth_coverage()
