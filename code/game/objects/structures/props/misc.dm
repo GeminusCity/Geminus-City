@@ -45,3 +45,16 @@
 	reagents.trans_to_mob(user, issmall(user) ? 2.5 : 5, CHEM_INGEST)
 	qdel(reagents)
 	..()
+
+/obj/structure/prop/water_fountain/attackby(obj/item/W, mob/user)
+	if(!istype(W, /obj/item/weapon/reagent_containers))
+		return FALSE
+	
+	var/obj/item/weapon/reagent_containers/R = W
+	
+	to_chat(user, "<span class='notice'>You fill [W] with some water from fountain.</span>")
+	user.setClickCooldown(user.get_attack_speed(src))
+
+	var/datum/reagents/reagents = new /datum/reagents
+	reagents.add_reagent("water", 5)
+	reagents.trans_to_holder(R.reagents, 5)
