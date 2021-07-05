@@ -19,7 +19,7 @@
 			if(B.robotic > 1)
 				return "Has a Synthetic Brain"
 
-	if(!SSpersistent_options.get_persistent_option_value("voting_noncitizen"))
+	if(!SSpersistent_options.get_persistent_option_value("voting_nonnational"))
 		if(H.home_system != using_map.starsys_name)
 			return "Is from [H.home_system] and not from [using_map.starsys_name]"
 
