@@ -8,3 +8,4 @@ silene - Judge
 silene - District Prosecutor
 silene - Nanotrasen CEO
 ferhargo - PDSI Agent
+DocDerp - City Clerk
