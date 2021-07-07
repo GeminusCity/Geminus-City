@@ -67,13 +67,13 @@ LOG_ATTACK
 LOG_PDA
 
 ## log world.log messages
-# LOG_WORLD_OUTPUT
+LOG_WORLD_OUTPUT
 
 ## log all Topic() calls (for use by coders in tracking down Topic issues)
-# LOG_HREFS
+LOG_HREFS
 
 ## log world.log and runtime errors to a file
-# LOG_RUNTIME
+LOG_RUNTIME
 
 ## log admin warning messages
 ##LOG_ADMINWARN  ## Also duplicates a bunch of other messages.
@@ -146,10 +146,10 @@ ALLOW_ADMIN_OOCCOLOR
 # ALLOW_METADATA
 
 ## allow players to initiate a restart vote
-ALLOW_VOTE_RESTART
+#ALLOW_VOTE_RESTART
 
 ## allow players to initate a mode-change start
-ALLOW_VOTE_MODE
+#ALLOW_VOTE_MODE
 
 ## min delay (deciseconds) between voting sessions (default 10 minutes)
 VOTE_DELAY 6000
