@@ -393,6 +393,25 @@ In most cases it makes more sense to use apply_damage() instead! And make sure t
 
 
 ////////////////////////////////////////////
+/*
+This function adds neural framework if it is needed.
+*/
+/mob/living/carbon/human/proc/add_neural_framework()
+	var/is_needed = FALSE
+	for(var/obj/item/organ/external/O in organs)
+		if(is_needed)
+			break
+		if(O.robotic >= ORGAN_ROBOT)
+			is_needed = TRUE
+	for(var/obj/item/organ/internal/O in internal_organs)
+		if(is_needed)
+			break
+		if(O.robotic >= ORGAN_ROBOT)
+			is_needed = TRUE
+	
+	var/obj/item/weapon/implant/neural/I = new
+	if(!I.handle_implant(src, I.initialize_loc))
+		qdel(I)
 
 /*
 This function restores the subjects blood to max.
