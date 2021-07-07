@@ -29,21 +29,22 @@
 	// return 1 if the implant succeeds (ex. Nonrevhead and loyalty implant.)
 // Moves the implant where it needs to go, and tells it if there's more to be done in post_implant
 /obj/item/weapon/implant/proc/handle_implant(var/mob/source, var/target_zone = BP_TORSO)
-	. = TRUE
-	imp_in = source
-	implanted = TRUE
 	if(ishuman(source))
 		var/mob/living/carbon/human/H = source
 		var/obj/item/organ/external/affected = H.get_organ(target_zone)
-		if(affected)
-			affected.implants |= src
-			part = affected
+		if(!affected || affected.robotic >= ORGAN_ROBOT)
+			return FALSE
+		affected.implants |= src
+		part = affected
 	if(part)
 		forceMove(part)
 	else
 		forceMove(source)
 
+	. = TRUE
 	listening_objects |= src
+	imp_in = source
+	implanted = TRUE
 
 /obj/item/weapon/implant/proc/post_implant(var/mob/source)
 
