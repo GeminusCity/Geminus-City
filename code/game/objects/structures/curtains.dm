@@ -9,7 +9,7 @@
 	var/open_state = "open"
 	var/closed_state = "closed"
 	var/open = FALSE
-	var/sheet_material = /obj/item/stack/material/cotton
+	var/sheet_material = /obj/item/stack/material/plastic
 
 	unique_save_vars = list("open")
 
@@ -57,7 +57,7 @@
 		if(do_after(user, 10))
 			user << "<span class='notice'>You cut \the [src].</span>"
 			var/obj/item/stack/material/A = new sheet_material( src.loc )
-			A.amount = 3
+			A.amount = 4
 			A.stack_color = color
 			qdel(src)
 		return
