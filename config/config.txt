@@ -209,7 +209,7 @@ GUEST_BAN
 #SERVERURL geminuscity.com:7777
 
 ## forum address
-# FORUMURL http://example.com
+FORUMURL https://discord.gg/ckejQ7VNHU
 
 ## Wiki address
 WIKIURL http://geminuscity.com/index.php?title=Main_Page

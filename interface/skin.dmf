@@ -1144,10 +1144,12 @@ window "mainwindow"
 		background-color = #2d1d34
 		is-default = true
 		saved-params = "pos;size;is-minimized;is-maximized"
-		title = "World Server 13"
+		title = "Geminus City"
 		icon = 'icons\\ws_64.png'
 		macro = "macro"
 		menu = "menu"
+		outer-size = 694x540
+		inner-size = 678x481
 	elem "loocbutton"
 		type = BUTTON
 		pos = 117,440
