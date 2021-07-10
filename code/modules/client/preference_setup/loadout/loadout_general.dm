@@ -113,7 +113,7 @@
 
 /*/datum/gear/baby
 	display_name = "baby selection"
-	path = /obj/item/clothing/suit/baby
+	path = /obj/item/clothing/suit/baby*/
 
 /*/datum/gear/baby/New()
 	..()
