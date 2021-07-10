@@ -69,6 +69,7 @@
 	and aren't being abused by police while in your custody. (Or not.)"
 
 	duties = list("Stop prisoners from breaking out", "Fall asleep", "Chase after escaped prisoners")
+	hard_whitelisted = 1
 
 /datum/job/warden/get_job_email()
 	return using_map.police_email
@@ -104,6 +105,7 @@
 	You also have a gun meant for self-defence, what a meme."
 
 	duties = list("Investigate crimes", "Don't get your own prints and fibers on the evidence", "Drink whiskey", "Compile reports", "Blotch the entire thing anyway")
+	hard_whitelisted = 1
 
 
 /datum/job/detective/get_job_email()
@@ -140,6 +142,7 @@
 	and enforce them within reason, or don't."
 
 	duties = list("Arrest criminals", "Beg higher-ups for warrants", "Cry over arrest reports", "Empty the donut box", "Survive")
+	hard_whitelisted = 1
 
 
 /datum/job/officer/get_job_email()

@@ -7,5 +7,9 @@ silene - Research Director
 silene - Judge
 silene - District Prosecutor
 silene - Nanotrasen CEO
-ferhargo - PDSI Agent
+silene - Police Officer
+silene - Detective
+silene - Prison Warden
 DocDerp - City Clerk
+Crigger162 - Medical Director
+WeRememberYouGarold - Police Officer

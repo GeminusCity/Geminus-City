@@ -33,4 +33,4 @@ delete-after: True
 # Also, all entries are changed into a single [] after a master changelog generation. Just remove the brackets when you add new entries.
 # Please surround your changes in  double quotes ("), as certain characters otherwise screws up compiling. The quotes will not show up in the changelog.
 changes: 
-  - tweak: "Altering variables to fit the new server instead of the old World Server."
+  - experiment: "Set all Police jobs but Cadet to be whitelisted for now. Will be letting in a small number of trusted/proven RPers to help train/work on the new promotion system."
