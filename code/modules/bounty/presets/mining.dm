@@ -17,10 +17,10 @@
 
 	stacks_wanted = list("diamond" = 50)
 
-	department_reward = 55000
-	individual_reward = 5500
+	department_reward = 550
+	individual_reward = 55
 
-
+/*
 /datum/bounty/mining/spaceboogle
 	name = "Cascington Valley Startup"
 	author = "Spaceboogle"
@@ -58,7 +58,7 @@
 
 	department_reward = 1100
 	individual_reward = 110
-
+*/
 
 /datum/bounty/mining/back_to_the_future
 	name = "2.42 Gigawatts"
@@ -70,8 +70,8 @@
 
 	stacks_wanted = list("uranium" = 150)
 
-	department_reward = 99000
-	individual_reward = 9900
+	department_reward = 990
+	individual_reward = 99
 
 /datum/bounty/mining/minting
 	name = "Commemerative Minting"
@@ -82,8 +82,8 @@
 
 	stacks_wanted = list("gold" = 200)
 
-	department_reward = 55000
-	individual_reward = 5500
+	department_reward = 550
+	individual_reward = 55
 
 /datum/bounty/mining/better_than_gold
 	name = "Better Than Gold"
@@ -94,8 +94,8 @@
 
 	stacks_wanted = list("platinum" = 50)
 
-	department_reward = 13750
-	individual_reward = 1375
+	department_reward = 137
+	individual_reward = 13
 
 
 /datum/bounty/mining/phoron_slime
@@ -106,8 +106,8 @@
 
 	stacks_wanted = list("phoron" = 100)
 
-	department_reward = 55000
-	individual_reward = 5500
+	department_reward = 550
+	individual_reward = 55
 
 
 /datum/bounty/mining/gorilla_warfare
@@ -118,10 +118,10 @@
 
 	stacks_wanted = list("durasteel" = 50)
 
-	department_reward = 27500
-	individual_reward = 2750
+	department_reward = 275
+	individual_reward = 27
 
-
+/*
 /datum/bounty/mining/plasteel_hearts
 	name = "Plasteel Hearts"
 	author = "Sister Rust"
@@ -150,7 +150,7 @@
 	individual_reward = 1375
 
 
-/*
+
 /datum/bounty/mining/tamperproof
 	name = "Tamperproof Sights"
 	author = "NSS Discovery"
@@ -189,7 +189,7 @@
 
 	department_reward = 55000
 	individual_reward = 5500
-
+/*
 /datum/bounty/mining/wires_everywhere
 	name = "Wires Everywhere"
 	author = "Rein Recyclables Ltd."
@@ -248,7 +248,7 @@
 
 	department_reward = 11000
 	individual_reward = 1100
-
+*/
 /datum/bounty/mining/jay_jewellers
 	name = "Every Joyful Moment Begins With Jay"
 	author = "Jay Jewellers"
@@ -265,7 +265,7 @@
  * High paying, high yield bounties go under here
  * Revisit this in the future.
  */
-
+/*
 /datum/bounty/mining/public_works
 	name = "Open Contract: Public Works"
 	author = "Government of Pollux"
@@ -330,4 +330,4 @@
 	department_reward = 33000
 	individual_reward = 3300
 
-
+*/

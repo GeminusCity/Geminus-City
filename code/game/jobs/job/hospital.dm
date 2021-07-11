@@ -47,8 +47,8 @@
 	supervisors = "the chief medical officer"
 	selection_color = "#013D3B"
 	idtype = /obj/item/weapon/card/id/medical/doctor
-	wage = 1750
-	synth_wage = 875
+	wage = 175
+	synth_wage = 85
 
 	minimum_character_age = 25
 	access = list(access_medical, access_medical_equip, access_morgue, access_surgery, access_chemistry, access_virology, access_eva)
@@ -77,8 +77,8 @@
 	supervisors = "the chief medical officer"
 	selection_color = "#013D3B"
 	idtype = /obj/item/weapon/card/id/medical/chemist
-	wage = 1200
-	synth_wage = 600
+	wage = 120
+	synth_wage = 60
 
 	access = list(access_medical, access_medical_equip, access_morgue, access_surgery, access_chemistry, access_virology)
 	minimal_access = list(access_medical, access_medical_equip, access_chemistry)
@@ -101,8 +101,8 @@
 	supervisors = "your private company director"
 	selection_color = "#013D3B"
 	idtype = /obj/item/weapon/card/id/medical/geneticist
-	wage = 1600
-	synth_wage = 800
+	wage = 160
+	synth_wage = 80
 
 	access = list(access_genetics)
 	minimal_access = list(access_genetics)
@@ -118,8 +118,8 @@
 	faction = "City"
 	total_positions = 4
 	spawn_positions = 1
-	wage = 1600
-	synth_wage = 800
+	wage = 160
+	synth_wage = 80
 
 	minimum_character_age = 25
 	supervisors = "the medical director"
@@ -144,8 +144,8 @@
 	supervisors = "the medical director"
 	selection_color = "#013D3B"
 	idtype = /obj/item/weapon/card/id/medical/intern
-	wage = 700
-	synth_wage = 350
+	wage = 70
+	synth_wage = 35
 
 	minimum_character_age = 20
 	access = list(access_medical)
@@ -165,8 +165,8 @@
 	supervisors = "the medical director"
 	selection_color = "#5B4D20"
 	idtype = /obj/item/weapon/card/id/medical/paramedic
-	wage = 2200
-	synth_wage = 1000
+	wage = 220
+	synth_wage = 100
 
 	minimum_character_age = 20
 
