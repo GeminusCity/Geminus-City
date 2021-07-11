@@ -213,32 +213,34 @@
 
 /obj/machinery/dye_generator/commercial/attackby(var/obj/item/I, var/mob/user)
 	add_fingerprint(user)
-	if(!paid)
-		if(istype(I,/obj/item/weapon/card/id))
-			var/obj/item/weapon/card/id/O = I
-			if(!owner_name)
-				visible_message("<span class='notice'>[usr] swipes their ID card over \the [src].</span>")
-				set_new_owner(I)
-				return
-			else
-				paid = pay_with_card(O, user)
 
-		if(istype(I,/obj/item/weapon/spacecash))
-			if(istype(I,/obj/item/weapon/spacecash/ewallet))
-				var/obj/item/weapon/spacecash/ewallet/chargecard = I
-				paid = pay_with_ewallet(chargecard, user)
+	if(istype(I,/obj/item/weapon/card/id) || istype(I,/obj/item/weapon/spacecash))
+		if(paid)
+			to_chat(user, "Payment has already been accepted for the dye generator!")
+			return
 
-			else
-				var/obj/item/weapon/spacecash/cash = I
-				paid = pay_with_cash(cash, user)
+	if(istype(I,/obj/item/weapon/card/id))
+		var/obj/item/weapon/card/id/O = I
+		if(!owner_name)
+			visible_message("<span class='notice'>[usr] swipes their ID card over \the [src].</span>")
+			set_new_owner(I)
+		else
+			paid = pay_with_card(O, user)
+	
+	if(istype(I,/obj/item/weapon/spacecash))
+		if(istype(I,/obj/item/weapon/spacecash/ewallet))
+			var/obj/item/weapon/spacecash/ewallet/chargecard = I
+			paid = pay_with_ewallet(chargecard, user)
+		else
+			var/obj/item/weapon/spacecash/cash = I
+			paid = pay_with_cash(cash, user)
 
+	if(istype(I,/obj/item/weapon/card/id) || istype(I,/obj/item/weapon/spacecash))
 		if(paid)
 			to_chat(user, "Payment accepted!")
 			updateDialog()
-
-	else
-		to_chat(user, "Payment has already been accepted for the dye generator!")
 		return
+	..()
 
 
 
