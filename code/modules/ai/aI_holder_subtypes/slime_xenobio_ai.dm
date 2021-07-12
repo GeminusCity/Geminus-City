@@ -25,6 +25,7 @@
 	pacify()
 
 /datum/ai_holder/simple_mob/xenobio_slime/New()
+	adjust_discipline(5, TRUE)
 	..()
 	ASSERT(istype(holder, /mob/living/simple_mob/slime/xenobio))
 
