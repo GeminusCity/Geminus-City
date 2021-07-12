@@ -59,7 +59,7 @@
 	supervisors = "the research director"
 	selection_color = "#633D63"
 	idtype = /obj/item/weapon/card/id/science/scientist
-	wage = 1500
+	wage = 150
 	access = list(access_robotics, access_tox, access_tox_storage, access_research, access_xenobiology, access_xenoarch)
 	minimal_access = list(access_tox, access_tox_storage, access_research, access_xenoarch)
 	minimum_character_age = 25
@@ -90,7 +90,7 @@
 	supervisors = "the research director"
 	selection_color = "#633D63"
 	idtype = /obj/item/weapon/card/id/science/xenobiologist
-	wage = 2000
+	wage = 200
 	access = list(access_robotics, access_tox, access_tox_storage, access_research, access_xenobiology, access_hydroponics)
 	minimal_access = list(access_research, access_xenobiology, access_hydroponics, access_tox_storage)
 	minimum_character_age = 25
@@ -121,7 +121,7 @@
 	supervisors = "research director"
 	selection_color = "#633D63"
 	idtype = /obj/item/weapon/card/id/science/roboticist
-	wage = 1900
+	wage = 190
 	access = list(access_robotics, access_tox, access_tox_storage, access_tech_storage, access_morgue, access_research) //As a job that handles so many corpses, it makes sense for them to have morgue access.
 	minimal_access = list(access_robotics, access_tech_storage, access_morgue, access_research) //As a job that handles so many corpses, it makes sense for them to have morgue access.
 	minimum_character_age = 25
@@ -145,7 +145,7 @@
 	supervisors = "the research director"
 	selection_color = "#633D63"
 	idtype = /obj/item/weapon/card/id/science/intern
-	wage = 250
+	wage = 100
 	access = list(access_research, access_maint_tunnels)
 	minimal_access = list(access_research, access_maint_tunnels)
 	minimum_character_age = 20
