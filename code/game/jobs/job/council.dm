@@ -149,3 +149,4 @@ var/datum/announcement/minor/captain_announcement = new(do_newscast = 1)
 	alt_titles = list("Council Bodyguard", "City Hall Security", "Bailiff")
 
 	clean_record_required = TRUE
+	hard_whitelisted = 1
