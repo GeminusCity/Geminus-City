@@ -110,8 +110,8 @@
 	supervisors = "the Judge"
 	selection_color = "#515151"
 	idtype = /obj/item/weapon/card/id/civilian/defense
-	wage = 1000
-	synth_wage = 500
+	wage = 100
+	synth_wage = 50
 
 	req_admin_notify = 1
 	access = list(access_lawyer, access_sec_doors, access_maint_tunnels, access_heads, access_legal)
@@ -155,7 +155,7 @@
 	subordinates = "the factory workers"
 	selection_color = "#7a4f33"
 	idtype = /obj/item/weapon/card/id/cargo/head
-	wage = 1500
+	wage = 150
 	access = list(access_maint_tunnels, access_mailsorting, access_cargo, access_cargo_bot, access_qm, access_mining, access_mining_station)
 	minimal_access = list(access_maint_tunnels, access_mailsorting, access_cargo, access_cargo_bot, access_qm, access_mining, access_mining_station)
 	minimum_character_age = 20
@@ -178,8 +178,8 @@
 	supervisors = "the factory manager"
 	selection_color = "#9b633e"
 	idtype = /obj/item/weapon/card/id/cargo/cargo_tech
-	wage = 500
-	synth_wage = 250
+	wage = 50
+	synth_wage = 25
 
 	access = list(access_maint_tunnels, access_mailsorting, access_cargo, access_cargo_bot, access_mining, access_mining_station)
 	minimal_access = list(access_maint_tunnels, access_cargo, access_cargo_bot, access_mailsorting)
