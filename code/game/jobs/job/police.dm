@@ -51,7 +51,7 @@
 	supervisors = "the chief of police"
 	selection_color = "#601C1C"
 	idtype = /obj/item/weapon/card/id/security/warden
-	wage = 1750
+	wage = 175
 	access = list(access_security, access_bodyguard, access_warrant, access_eva, access_sec_doors, access_brig, access_armory, access_maint_tunnels, access_morgue, access_external_airlocks)
 	minimal_access = list(access_security, access_warrant, access_eva, access_sec_doors, access_brig, access_armory, access_maint_tunnels, access_external_airlocks)
 	minimal_player_age = 5
@@ -88,8 +88,8 @@
 	idtype = /obj/item/weapon/card/id/security/detective
 	access = list(access_security, access_sec_doors, access_brig, access_forensics_lockers, access_medical, access_morgue, access_maint_tunnels, access_eva, access_external_airlocks)
 	minimal_access = list(access_security, access_sec_doors, access_brig, access_forensics_lockers, access_medical, access_morgue, access_maint_tunnels, access_eva, access_external_airlocks)
-	wage = 1500
-	synth_wage = 750
+	wage = 150
+	synth_wage = 75
 
 	minimal_player_age = 3
 	minimum_character_age = 25
@@ -123,8 +123,8 @@
 	supervisors = "the chief of police"
 	selection_color = "#601C1C"
 	idtype = /obj/item/weapon/card/id/security/officer
-	wage = 1250
-	synth_wage = 625
+	wage = 125
+	synth_wage = 60
 
 	access = list(access_security, access_eva, access_sec_doors, access_brig, access_maint_tunnels, access_morgue, access_external_airlocks)
 	minimal_access = list(access_security, access_eva, access_sec_doors, access_brig, access_maint_tunnels, access_external_airlocks)
@@ -161,8 +161,8 @@
 	supervisors = "Non-cadet police"
 	selection_color = "#601C1C"
 	idtype = /obj/item/weapon/card/id/security/pol_cadet
-	wage = 750
-	synth_wage = 375
+	wage = 75
+	synth_wage = 35
 
 	access = list(access_security, access_eva, access_sec_doors, access_brig, access_maint_tunnels, access_morgue, access_external_airlocks)
 	minimal_access = list(access_security, access_eva, access_sec_doors, access_brig, access_maint_tunnels, access_external_airlocks)

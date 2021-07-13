@@ -44,7 +44,7 @@
 	supervisors = "the judge"
 	selection_color = "#601C1C"
 	idtype = /obj/item/weapon/card/id/security/prosecutor
-	wage = 2700
+	wage = 270
 	allows_synths = FALSE
 
 	access = list(access_prosecutor, access_sec_doors, access_maint_tunnels, access_heads, access_legal, access_warrant)

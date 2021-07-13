@@ -40,8 +40,8 @@
 
 	items_wanted = list(/obj/item/clothing/head/beanie = 200)
 
-	department_reward = 40000
-	individual_reward = 17000
+	department_reward = 400
+	individual_reward = 170
 
 
 /datum/bounty/leisure/beanies/meets_standards(var/obj/O) // additional custom checks
@@ -61,8 +61,8 @@
 
 	items_wanted = list(/obj/item/weapon/lipstick = 200)
 
-	department_reward = 150000
-	individual_reward = 25000
+	department_reward = 1500
+	individual_reward = 250
 
 	var/makeup_color = "#FF0000"
 
@@ -94,8 +94,8 @@
 
 	items_wanted = list(/obj/item/weapon/lipstick/eyeshadow = 200)
 
-	department_reward = 42000
-	individual_reward = 17000
+	department_reward = 420
+	individual_reward = 170
 
 
 /datum/bounty/leisure/pucker_up/making_me_blush
@@ -106,8 +106,8 @@
 
 	items_wanted = list(/obj/item/weapon/lipstick/blusher = 200)
 
-	department_reward = 120000
-	individual_reward = 17000
+	department_reward = 1200
+	individual_reward = 170
 
 
 /datum/bounty/leisure/jackening
@@ -152,8 +152,8 @@
 
 	items_wanted = list(/obj/item/clothing/head/fedora = 250)
 
-	department_reward = 35000
-	individual_reward = 16000
+	department_reward = 3500
+	individual_reward = 1600
 
 	days_until_expiry = 10
 	allow_subtypes = TRUE
