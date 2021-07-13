@@ -28,8 +28,8 @@
 # +EVERYTHING (or +HOST or +ALL) = Simply gives you everything without having to type every flag
 
 Admin Observer
-Trial Moderator +MOD +BAN +DEBUG +FUN +VAREDIT +SOUND +POSSESS +REJUVINATE 
-Moderator		+@ +SPAWN +BUILD
+Trial Moderator +MOD +SOUND +POSSESS +REJUVINATE 
+Moderator		+@ +SPAWN +BUILD +BAN +DEBUG +FUN +VAREDIT
 Mentor          +MENTOR
 
 Admin Candidate	+ADMIN

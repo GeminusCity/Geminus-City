@@ -5,7 +5,6 @@
 # Ranks can be anything defined in admin_ranks.txt           ~Carn   #
 ######################################################################
 
-# not_a_user - Admin
 # shadowkiller104 - Game Admin
 # ncrranger21 - Moderator
 # monos - Trial Moderator
@@ -15,6 +14,7 @@
 
 silene - Host
 TolinKalin - Host
-gidgit - Developer
+jsuelieta - Game Admin
 vlad777 - Developer
-Caesarion999 - Trial Moderator
+AnnoyingIncantation - Trial Moderator
+Desminus - Trial Moderator
