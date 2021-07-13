@@ -461,10 +461,10 @@ ALLOW_BUSINESSES
 MIN_BYOND_AGE 0
 
 #People under this byond age will be automatically given the anti-grief var
-BYOND_ANTIGRIEF_AGE 1
+#BYOND_ANTIGRIEF_AGE 0
 
 #People under this player age will be automatically given the anti-grief var
-PLAYER_ANTIGRIEF_AGE 1
+#PLAYER_ANTIGRIEF_AGE 0
 
 ## Panic Bunker - Comment out to disable the panic bunker.
 # PANIC_BUNKER
