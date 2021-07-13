@@ -90,13 +90,13 @@
 	name = "spring"
 	path =/obj/item/weapon/stock_parts/spring
 
-/datum/category_item/crafting/autolathe/engineering/rcd_ammo
+/*/datum/category_item/crafting/autolathe/engineering/rcd_ammo
 	name = "matter cartridge"
 	path =/obj/item/weapon/rcd_ammo
 
 /datum/category_item/crafting/autolathe/engineering/rcd
 	name = "rapid construction device"
-	path =/obj/item/weapon/rcd
+	path =/obj/item/weapon/rcd*/
 
 /datum/category_item/crafting/autolathe/engineering/camera_assembly
 	name = "camera assembly"
