@@ -17,10 +17,10 @@
 
 	stacks_wanted = list("diamond" = 50)
 
-	department_reward = 55000
-	individual_reward = 5500
+	department_reward = 550
+	individual_reward = 55
 
-
+/*
 /datum/bounty/mining/spaceboogle
 	name = "Cascington Valley Startup"
 	author = "Spaceboogle"
@@ -58,7 +58,7 @@
 
 	department_reward = 1100
 	individual_reward = 110
-
+*/
 
 /datum/bounty/mining/back_to_the_future
 	name = "2.42 Gigawatts"
@@ -70,8 +70,8 @@
 
 	stacks_wanted = list("uranium" = 150)
 
-	department_reward = 99000
-	individual_reward = 9900
+	department_reward = 990
+	individual_reward = 99
 
 /datum/bounty/mining/minting
 	name = "Commemerative Minting"
@@ -82,8 +82,8 @@
 
 	stacks_wanted = list("gold" = 200)
 
-	department_reward = 55000
-	individual_reward = 5500
+	department_reward = 550
+	individual_reward = 55
 
 /datum/bounty/mining/better_than_gold
 	name = "Better Than Gold"
@@ -94,8 +94,8 @@
 
 	stacks_wanted = list("platinum" = 50)
 
-	department_reward = 13750
-	individual_reward = 1375
+	department_reward = 137
+	individual_reward = 13
 
 
 /datum/bounty/mining/phoron_slime
@@ -104,10 +104,10 @@
 	description = "We are a slime breeding and research company, and we're in dire need of phoron. Our slimes simply refuse to mutate into their wonderful \
 	colorful variants! We're stuck researching slime extracts until then and we need alot of phoron!"
 
-	stacks_wanted = list("phoron" = 100)
+	stacks_wanted = list("phoron" = 150)
 
-	department_reward = 55000
-	individual_reward = 5500
+	department_reward = 550
+	individual_reward = 55
 
 
 /datum/bounty/mining/gorilla_warfare
@@ -116,12 +116,12 @@
 	description = "This is a public contract available to all civilian industries. Large quantities of durasteel are required for military purposes. Payment \
 	will be wired upon completion of the contract."
 
-	stacks_wanted = list("durasteel" = 50)
+	stacks_wanted = list("durasteel" = 150)
 
-	department_reward = 27500
-	individual_reward = 2750
+	department_reward = 275
+	individual_reward = 27
 
-
+/*
 /datum/bounty/mining/plasteel_hearts
 	name = "Plasteel Hearts"
 	author = "Sister Rust"
@@ -150,7 +150,7 @@
 	individual_reward = 1375
 
 
-/*
+
 /datum/bounty/mining/tamperproof
 	name = "Tamperproof Sights"
 	author = "NSS Discovery"
@@ -172,7 +172,7 @@
 	description = "It is said that if one looks into the void, the void will reciprocate. We require the exceedingly rare gems known as void opals for our Mekhanika's eyes. You will \
 	receive our utmost respect and bountiful compensation for successfully completing this task."
 
-	stacks_wanted = list("void opal" = 50)
+	stacks_wanted = list("void opal" = 500)
 
 	department_reward = 110000
 	individual_reward = 11000
@@ -185,11 +185,11 @@
 	One of my workers has been preaching of the benefits of unions and teaching men to fish. I have been offered new workers, in exchange for any excess silver I have. Send me silver so that \
 	production can begin again!"
 
-	stacks_wanted = list("silver" = 100)
+	stacks_wanted = list("silver" = 500)
 
 	department_reward = 55000
 	individual_reward = 5500
-
+/*
 /datum/bounty/mining/wires_everywhere
 	name = "Wires Everywhere"
 	author = "Rein Recyclables Ltd."
@@ -248,14 +248,14 @@
 
 	department_reward = 11000
 	individual_reward = 1100
-
+*/
 /datum/bounty/mining/jay_jewellers
 	name = "Every Joyful Moment Begins With Jay"
 	author = "Jay Jewellers"
 	description = "Jay Jewellers is searching for a precious gem that will set us apart from other jewelry businesses in our area. Our experts have identified painite as one such gem that will \
 	attract more discerning customers to our business. Please deliver the cut jewels to us for use in a variety of necklaces, rings, and other accessories."
 
-	stacks_wanted = list("painite" = 50)
+	stacks_wanted = list("painite" = 200)
 
 	department_reward = 16500
 	individual_reward = 1650
@@ -265,7 +265,7 @@
  * High paying, high yield bounties go under here
  * Revisit this in the future.
  */
-
+/*
 /datum/bounty/mining/public_works
 	name = "Open Contract: Public Works"
 	author = "Government of Pollux"
@@ -330,4 +330,4 @@
 	department_reward = 33000
 	individual_reward = 3300
 
-
+*/

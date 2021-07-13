@@ -13,8 +13,8 @@
 
 	items_wanted = list(/obj/item/weapon/hand_labeler = 100)
 
-	department_reward = 42000
-	individual_reward = 7000
+	department_reward = 420
+	individual_reward = 70
 
 
 /datum/bounty/retail/inner_toolbox
@@ -26,8 +26,8 @@
 
 	items_wanted = list(/obj/item/weapon/storage/toolbox = 100)
 
-	department_reward = 30000
-	individual_reward = 8500
+	department_reward = 300
+	individual_reward = 85
 
 	allow_subtypes = TRUE
 
@@ -41,8 +41,8 @@
 
 	items_wanted = list(/obj/item/dye_bottle = 100)
 
-	department_reward = 4000
-	individual_reward = 3000
+	department_reward = 40
+	individual_reward = 30
 
 
 
@@ -55,8 +55,8 @@
 
 	items_wanted = list(/obj/item/weapon/material/ashtray = 20)
 
-	department_reward = 2000
-	individual_reward = 1000
+	department_reward = 20
+	individual_reward = 10
 
 	allow_subtypes = TRUE
 
@@ -68,8 +68,8 @@
 
 	items_wanted = list(/obj/item/weapon/reagent_containers/glass/bucket = 60)
 
-	department_reward = 14000
-	individual_reward = 5000
+	department_reward = 140
+	individual_reward = 50
 
 
 /datum/bounty/retail/fireman
@@ -79,8 +79,8 @@
 
 	items_wanted = list(/obj/item/weapon/extinguisher = 1)
 
-	department_reward = 750
-	individual_reward = 80
+	department_reward = 75
+	individual_reward = 8
 
 	days_until_expiry = 1
 	allow_subtypes = TRUE
@@ -94,8 +94,8 @@
 
 	items_wanted = list(/obj/item/weapon/picket_sign = 120)
 
-	department_reward = 29500
-	individual_reward = 6000
+	department_reward = 295
+	individual_reward = 60
 
 
 /datum/bounty/retail/soapy_sods
@@ -106,8 +106,8 @@
 
 	items_wanted = list(/obj/item/weapon/soap = 100)
 
-	department_reward = 30000
-	individual_reward = 14000
+	department_reward = 300
+	individual_reward = 140
 
 
 	allow_subtypes = TRUE
@@ -119,8 +119,8 @@
 
 	items_wanted = list(/obj/item/weapon/beartrap = 30)
 
-	department_reward = 12500
-	individual_reward = 5500
+	department_reward = 125
+	individual_reward = 55
 
 	days_until_expiry = 2
 
@@ -131,8 +131,8 @@
 
 	items_wanted = list(/obj/item/weapon/reagent_containers/food/drinks/flask = 1)
 
-	department_reward = 900
-	individual_reward = 350
+	department_reward = 90
+	individual_reward = 35
 
 	days_until_expiry = 1
 
@@ -146,8 +146,8 @@
 
 	items_wanted = list(/obj/item/device/flashlight = 70)
 
-	department_reward = 13600
-	individual_reward = 7000
+	department_reward = 136
+	individual_reward = 70
 
 /datum/bounty/retail/whatacooler
 	name = "What-A-Cooler Water Coolers"
@@ -156,8 +156,8 @@
 
 	items_wanted = list(/obj/item/weapon/reagent_containers/glass/cooler_bottle = 80)
 
-	department_reward = 20000
-	individual_reward = 4000
+	department_reward = 200
+	individual_reward = 40
 
 
 /datum/bounty/retail/skateboard
@@ -168,8 +168,8 @@
 
 	items_wanted = list(/obj/item/melee/skateboard = 30)
 
-	department_reward = 30000
-	individual_reward = 7000
+	department_reward = 300
+	individual_reward = 70
 
 	days_until_expiry = 7
 
@@ -180,7 +180,7 @@
 
 	items_wanted = list(/obj/item/weapon/grinder = 10)
 
-	department_reward = 1800
-	individual_reward = 500
+	department_reward = 18
+	individual_reward = 5
 
 	days_until_expiry = 3
