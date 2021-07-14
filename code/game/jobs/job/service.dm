@@ -110,7 +110,7 @@
 	supervisors = "the Judge"
 	selection_color = "#515151"
 	idtype = /obj/item/weapon/card/id/civilian/defense
-	wage = 100
+	wage = 150
 	synth_wage = 50
 
 	req_admin_notify = 1

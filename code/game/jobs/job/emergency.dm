@@ -101,7 +101,7 @@
 	access = list(access_engine, access_engine_equip, access_external_airlocks, access_janitor, access_maint_tunnels)
 	minimal_access = list(access_janitor, access_maint_tunnels)
 	minimum_character_age = 16 //Not making it any younger because being a janitor requires a lot of labor, or maybe it just means I'm very lazy? Oh well
-	wage = 40
+	wage = 50
 	synth_wage = 20
 
 	outfit_type = /decl/hierarchy/outfit/job/service/janitor
