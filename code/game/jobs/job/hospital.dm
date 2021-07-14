@@ -47,7 +47,7 @@
 	supervisors = "the chief medical officer"
 	selection_color = "#013D3B"
 	idtype = /obj/item/weapon/card/id/medical/doctor
-	wage = 175
+	wage = 200
 	synth_wage = 85
 
 	minimum_character_age = 25
@@ -118,7 +118,7 @@
 	faction = "City"
 	total_positions = 4
 	spawn_positions = 1
-	wage = 160
+	wage = 200
 	synth_wage = 80
 
 	minimum_character_age = 25
@@ -144,7 +144,7 @@
 	supervisors = "the medical director"
 	selection_color = "#013D3B"
 	idtype = /obj/item/weapon/card/id/medical/intern
-	wage = 70
+	wage = 75
 	synth_wage = 35
 
 	minimum_character_age = 20
@@ -165,7 +165,7 @@
 	supervisors = "the medical director"
 	selection_color = "#5B4D20"
 	idtype = /obj/item/weapon/card/id/medical/paramedic
-	wage = 220
+	wage = 250
 	synth_wage = 100
 
 	minimum_character_age = 20

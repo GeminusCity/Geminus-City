@@ -12,7 +12,7 @@
 	supervisors = "government officials and the president"
 	selection_color = "#1D1D4F"
 	idtype = /obj/item/weapon/card/id/heads/judge
-	wage = 4500
+	wage = 450
 	allows_synths = FALSE
 
 	access = list(access_judge, access_warrant, access_sec_doors, access_maint_tunnels, access_heads, access_legal)
@@ -44,7 +44,7 @@
 	supervisors = "the judge"
 	selection_color = "#601C1C"
 	idtype = /obj/item/weapon/card/id/security/prosecutor
-	wage = 270
+	wage = 250
 	allows_synths = FALSE
 
 	access = list(access_prosecutor, access_sec_doors, access_maint_tunnels, access_heads, access_legal, access_warrant)
