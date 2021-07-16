@@ -16,5 +16,5 @@ silene - Host
 TolinKalin - Host
 jsuelieta - Game Admin
 vlad777 - Developer
-AnnoyingIncantation - Trial Moderator
-Desminus - Trial Moderator
+AnnoyingIncantation - Moderator
+Desminus - Moderator
