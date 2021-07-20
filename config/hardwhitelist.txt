@@ -31,3 +31,5 @@ AnnoyingIncantation - Judge
 Desminus - Judge
 Desminus - City Clerk
 Crezilin - Research Director
+AnnoyingIncantation - Detective
+Desminus - Prison Warden
