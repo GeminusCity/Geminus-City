@@ -209,12 +209,12 @@ SUBSYSTEM_DEF(elections)
 			return 0
 
 		if(!(Days_Difference(last_election_date , full_game_time() ) > 28 && is_election_day(get_game_day()) ))
-	//		message_admins("Returned: [get_next_election_month()] vs current month: [get_game_month()] and test day being [get_game_day()]", 1)
+			message_admins("Returned: [get_next_election_month()] vs current month: [get_game_month()] and test day being [get_game_day()]", 1)
 			return 0
 
 
 		if(!political_candidates) //No people running? Either not registration period or no election boys, pack it up - the dictatorship begins.
-	//		message_admins("Returned: No candidates available.", 1)
+			message_admins("Returned: No candidates available.", 1)
 			return 0
 
 	recount_votes()
@@ -236,17 +236,17 @@ SUBSYSTEM_DEF(elections)
 
 
 	if(!highest_voted)
-//		message_admins("No candidates returned from draw.", 1)
+		message_admins("No candidates returned from draw.", 1)
 		return 0
 
 	winning_vote = highest_voted
 
 	if(!winning_vote)
-//		message_admins("ERROR: No winning vote chosen at election.", 1)
+		message_admins("ERROR: No winning vote chosen at election.", 1)
 		return 0
 
 
-//	message_admins("Picked [winning_vote.name] as winning vote.", 1)
+	message_admins("Picked [winning_vote.name] as winning vote.", 1)
 
 	//clear the current president's votes and make them into a former president
 	former_presidents += current_president
