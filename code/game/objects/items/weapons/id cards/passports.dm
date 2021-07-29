@@ -35,7 +35,6 @@
 	else if(pass.citizenship == "Sol") pass.icon_state = "solgov_passport"
 	else if(pass.citizenship == "Other")
 		pass.icon_state = "passport"
-		pass.desc = "This is an electronic passport that allows you to travel between colonies."
 	else if(pass.citizenship == "Cobrastan") pass.icon_state = "cobrastan_passport" //a cheeky little easter egg for fans of Papers, Please
 	else icon_state = "passport"
 
