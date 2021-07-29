@@ -33,6 +33,9 @@
 	if(pass.citizenship == "Andromeda") pass.icon_state = "androgov_passport"  //Matches icon to location
 	else if(pass.citizenship == "Vetra") pass.icon_state = "polgov_passport"
 	else if(pass.citizenship == "Sol") pass.icon_state = "solgov_passport"
+	else if(pass.citizenship == "Other")
+		pass.icon_state = "passport"
+		pass.desc = "This is an electronic passport that allows you to travel between colonies."
 	else if(pass.citizenship == "Cobrastan") pass.icon_state = "cobrastan_passport" //a cheeky little easter egg for fans of Papers, Please
 	else icon_state = "passport"
 
@@ -47,8 +50,8 @@
 		user.update_passport(src)
 		edits_left = 0
 	else
-		user.visible_message("\The [user] flashes their passport. It shows that [owner] was born in [citizenship].",\
-			"You flash your passport. It shows that [owner] was born in [citizenship].")
+		user.visible_message("\The [user] flashes their passport. It shows that [owner] is from [citizenship].",\
+			"You flash your passport. It shows that [owner] is from [citizenship].")
 
 		src.add_fingerprint(user)
 		return
