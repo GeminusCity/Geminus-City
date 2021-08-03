@@ -51,8 +51,6 @@
 /datum/category_item/player_setup_item/general/background/sanitize_character()
 	if(!pref.home_system) pref.home_system = "Vetra"
 	if(!pref.citizenship) pref.citizenship = "Blue Colony"
-	pref.home_system = sanitize_inlist(pref.home_system, home_system_choices, initial(pref.home_system))
-	pref.citizenship = sanitize_inlist(pref.citizenship, citizenship_choices, initial(pref.citizenship))
 //	if(!pref.faction)     pref.faction =     "None"
 	if(!pref.religion)    pref.religion =    "None"
 	if(!pref.crime_record) pref.crime_record = list()
@@ -154,10 +152,10 @@
 		var/choice = input(user, "Please choose a home system.", "Character Preference", pref.home_system) as null|anything in home_system_choices
 		if(!choice || !CanUseTopic(user))
 			return TOPIC_NOACTION
-		if(choice == "Other")
+		else if(choice == "Other")
 			var/raw_choice = sanitize(input(user, "Please enter a home system.", "Character Preference")  as text|null, MAX_NAME_LEN)
-			if(raw_choice && CanUseTopic(user))
-				pref.home_system = raw_choice
+			if(raw_choice)
+				pref.home_system = sanitize(raw_choice)
 		else
 			pref.home_system = choice
 		return TOPIC_REFRESH
@@ -166,7 +164,12 @@
 		var/choice = input(user, "Please choose your current citizenship.", "Character Preference", pref.citizenship) as null|anything in citizenship_choices
 		if(!choice || !CanUseTopic(user))
 			return TOPIC_NOACTION
-		pref.citizenship = choice
+		else if(choice == "Other")
+			var/raw_choice = sanitize(input(user, "Please enter a home system.", "Character Preference")  as text|null, MAX_NAME_LEN)
+			if(raw_choice)
+				pref.citizenship = sanitize(raw_choice)
+		else
+			pref.citizenship = choice
 		return TOPIC_REFRESH
 /*
 	else if(href_list["faction"])

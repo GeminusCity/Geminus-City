@@ -20,13 +20,15 @@ var/global/list/citizenship_choices = list(
 	"Ocral Spax B",
 	"Glace Gria",
 	"Glace Grace",
-	"Castor"
+	"Castor",
+	"Other"
 	)
 
 var/global/list/home_system_choices = list(
 	"Vetra",
 	"Sol",
-	"Andromeda"
+	"Andromeda",
+	"Other"
 	)
 
 var/global/list/faction_choices = list(
