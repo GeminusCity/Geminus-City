@@ -61,7 +61,7 @@
 	description = "Excuse me - it appears that my latest Zombie-Stomping rampage has left quite an abundance of viscera around.\
 	If I may, I'd like to request some heavy-duty cleaning equipment. With kind regards, MC Fist."
 
-	items_wanted = list(/obj/item/weapon/reagent_containers/spray/chemsprayer = 1)
+	items_wanted = list(/obj/item/weapon/reagent_containers/spray/chemsprayer = 2)
 
 	department_reward = 600
 	individual_reward = 150
