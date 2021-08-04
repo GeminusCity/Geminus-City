@@ -655,15 +655,6 @@ other types of metals and chemistry for reagents).
 	sort_string = "TAAAD"
 	price = 6000
 
-/datum/design/item/weapon/decloner
-	id = "decloner"
-	req_tech = list(TECH_COMBAT = 5, TECH_MATERIAL = 6, TECH_BIO = 5, TECH_ILLEGAL = 3)
-	materials = list("gold" = 5000,"uranium" = 10000, "plastic" = 1000)
-	chemicals = list("mutagen" = 40)
-	build_path = /obj/item/weapon/gun/energy/decloner
-	sort_string = "TAAAE"
-	price = 10000
-
 /datum/design/item/weapon/smg
 	id = "smg"
 	req_tech = list(TECH_COMBAT = 4, TECH_MATERIAL = 3)
