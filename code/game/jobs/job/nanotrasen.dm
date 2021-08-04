@@ -17,7 +17,7 @@
 	alt_titles = list("Electoral Assistant" = /decl/hierarchy/outfit/job/nanotrasen/electoral,
                       "Nanotrasen Officer" = /decl/hierarchy/outfit/job/nanotrasen/officer)
 
-	wage = 5500
+	wage = 550
 	minimum_character_age = 25 // Pushing it I guess, but possible
 	ideal_character_age = 40
 	req_admin_notify = 1
@@ -63,7 +63,7 @@
 	minimal_access = list(access_cent_general, access_president, access_vice_president, access_advisor, access_governor)
 	minimal_player_age = 14
 
-	wage = 9000
+	wage = 900
 	alt_titles = list()
 
 	minimum_character_age = 30
@@ -81,7 +81,7 @@
 	total_positions = 1
 	spawn_positions = 1
 	flag = VICEPRESIDENT
-	wage = 7000
+	wage = 700
 	outfit_type = /decl/hierarchy/outfit/job/nanotrasen/vpresident
 	idtype = /obj/item/weapon/card/id/nanotrasen/ceo
 	access = list(access_vice_president, access_cent_general, access_cent_thunder, access_cent_medical, access_cent_living, access_cent_storage, access_cent_teleporter) 			//See get_access()
@@ -97,7 +97,7 @@
 	total_positions = 1
 	spawn_positions = 1
 	flag = CEO
-	wage = 9000
+	wage = 900
 	outfit_type = /decl/hierarchy/outfit/job/nanotrasen/ceo
 	idtype = /obj/item/weapon/card/id/nanotrasen/ceo
 
@@ -121,7 +121,7 @@
 	total_positions = 2
 	spawn_positions = 2
 	flag = GOVERNOR
-	wage = 6500
+	wage = 650
 	outfit_type = /decl/hierarchy/outfit/job/nanotrasen/governor
 	idtype = /obj/item/weapon/card/id/nanotrasen/governor
 
@@ -142,7 +142,7 @@
 	total_positions = 1
 	spawn_positions = 1
 	flag = SUPREMEJUSTICE
-	wage = 7000
+	wage = 700
 	outfit_type = /decl/hierarchy/outfit/job/nanotrasen/justice
 	idtype = /obj/item/weapon/card/id/nanotrasen/justice
 	access = list(access_cent_general)
@@ -173,7 +173,7 @@
 
 	outfit_type = /decl/hierarchy/outfit/job/nanotrasen/pdsi
 
-	wage = 4500
+	wage = 450
 	minimum_character_age = 25 // Pushing it I guess, but possible
 	ideal_character_age = 37
 	req_admin_notify = 1
@@ -197,7 +197,7 @@
 	outfit_type = /decl/hierarchy/outfit/job/nanotrasen/advisor
 	idtype = /obj/item/weapon/card/id/nanotrasen/advisor
 	alt_titles = list()
-	wage = 5000
+	wage = 500
 	description = "As an advisor, your goal is to advise the president. Yep, that's it."
 
 /datum/job/nanotrasen/advisor/defense

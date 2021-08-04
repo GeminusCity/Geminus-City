@@ -12,7 +12,7 @@
 	selection_color = "#026865"
 	idtype = /obj/item/weapon/card/id/medical/head
 	req_admin_notify = 1
-	wage = 4250
+	wage = 425
 	allows_synths = FALSE
 
 	access = list(access_medical, access_medical_equip, access_morgue, access_genetics, access_heads,
