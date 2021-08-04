@@ -12,7 +12,6 @@ var/const/ATMOSTECH				=(1<<7)
 var/const/AI					=(1<<8)
 var/const/CYBORG				=(1<<9)
 
-var/const/PARAMEDIC				=(1<<10)
 var/const/POL_CADET				=(1<<11)
 
 var/const/MEDSCI				=(1<<1)
@@ -27,9 +26,10 @@ var/const/VIROLOGIST			=(1<<6)
 var/const/PSYCHIATRIST			=(1<<7)
 var/const/ROBOTICIST			=(1<<8)
 var/const/XENOBIOLOGIST			=(1<<9)
-var/const/MEDICALINTERN			=(1<<10)
-var/const/SCIENCEINTERN			=(1<<11)
-var/const/SCIGUARD				=(1<<12)
+var/const/PARAMEDIC				=(1<<10)
+var/const/MEDICALINTERN			=(1<<11)
+var/const/SCIENCEINTERN			=(1<<12)
+var/const/SCIGUARD				=(1<<13)
 
 var/const/CIVILIAN				=(1<<2)
 
