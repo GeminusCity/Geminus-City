@@ -657,7 +657,7 @@ other types of metals and chemistry for reagents).
 
 /datum/design/item/weapon/decloner
 	id = "decloner"
-	req_tech = list(TECH_COMBAT = 8, TECH_MATERIAL = 7, TECH_BIO = 5, TECH_POWER = 6)
+	req_tech = list(TECH_COMBAT = 5, TECH_MATERIAL = 6, TECH_BIO = 5, TECH_ILLEGAL = 3)
 	materials = list("gold" = 5000,"uranium" = 10000, "plastic" = 1000)
 	chemicals = list("mutagen" = 40)
 	build_path = /obj/item/weapon/gun/energy/decloner
