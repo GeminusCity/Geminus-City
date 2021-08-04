@@ -56,11 +56,12 @@
 	days_until_expiry = 2
 
 /datum/bounty/gun/bioweapon
-	name = "Green Goo"
+	name = "Cleaning up the Streets"
 	author = "Master Commander Fist McLaserbiceps Odinkiller Zombiestomper Doomslayer MCLXVII"
-	description = "\[This message has been redacted due to violating the terms of service.\]"
+	description = "Excuse me - it appears that my latest Zombie-Stomping rampage has left quite an abundance of viscera around.\
+	If I may, I'd like to request some heavy-duty cleaning equipment. With kind regards, MC Fist."
 
-	items_wanted = list(/obj/item/weapon/gun/energy/decloner = 1)
+	items_wanted = list(/obj/item/weapon/reagent_containers/spray/chemsprayer = 1)
 
 	department_reward = 600
 	individual_reward = 150
