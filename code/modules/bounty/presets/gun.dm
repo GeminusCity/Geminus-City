@@ -7,7 +7,7 @@
 	author = "Howard Hows"
 	description = "So my guards are not looking \"future soldier\" enough. I change out their outfits almost once a year \
 	with new doodads but something is missing. Ah! Their gun does not have an adjective in the name. Simply out of date. \
-	Please make sure to send 4 Prototype SMGs so normal troop’s equipment does not catch up to ours."
+	Please make sure to send 4 Prototype SMGs so normal troopâ€™s equipment does not catch up to ours."
 
 	items_wanted = list(/obj/item/weapon/gun/projectile/automatic = 4)
 
@@ -56,11 +56,12 @@
 	days_until_expiry = 2
 
 /datum/bounty/gun/bioweapon
-	name = "Green Goo"
+	name = "Cleaning Up the Streets"
 	author = "Master Commander Fist McLaserbiceps Odinkiller Zombiestomper Doomslayer MCLXVII"
-	description = "\[This message has been redacted due to violating the terms of service.\]"
+	description = "Excuse me - it appears that my latest Zombie-Stomping rampage has left quite an abundance of viscera around.\
+	If I may, I'd like to request some heavy-duty cleaning equipment. With kind regards, MC Fist."
 
-	items_wanted = list(/obj/item/weapon/gun/energy/decloner = 1)
+	items_wanted = list(/obj/item/weapon/reagent_containers/spray/chemsprayer = 2)
 
 	department_reward = 600
 	individual_reward = 150
@@ -81,8 +82,8 @@
 	name = "Don't Taze Me Bro!"
 	author = "Hammerdown"
 
-	description = "We’re in need of equipment for our next run. It's gonna be a milk run this time, I can feel it. This one’s gotta stay lowkey so \
-	we’re going with non-lethal weapons - Twitchers, specifically. Get us 3 stun revolvers to outfit the crew and we’ll send some credits your way."
+	description = "Weâ€™re in need of equipment for our next run. It's gonna be a milk run this time, I can feel it. This oneâ€™s gotta stay lowkey so \
+	weâ€™re going with non-lethal weapons - Twitchers, specifically. Get us 3 stun revolvers to outfit the crew and weâ€™ll send some credits your way."
 
 	items_wanted = list(/obj/item/weapon/gun/energy/stunrevolver = 3)
 
