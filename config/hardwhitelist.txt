@@ -11,26 +11,3 @@ silene - Police Officer
 silene - Detective
 silene - Prison Warden
 silene - City Hall Guard
-DocDerp - City Clerk
-Crigger162 - Medical Director
-WeRememberYouGarold - Police Officer
-mirkoloio - City Hall Guard
-jsuelieta - Judge
-jsuelieta - Mayor
-jsuelieta - Chief of Police
-jsuelieta - City Clerk
-jsuelieta - Maintenance Director
-jsuelieta - Medical Director
-jsuelieta - Research Director
-jsuelieta - District Prosecutor
-jsuelieta - Police Officer
-jsuelieta - Detective
-jsuelieta - Prison Warden
-jsuelieta - City Hall Guard
-AnnoyingIncantation - Judge
-Desminus - Judge
-Desminus - City Clerk
-Crezilin - Research Director
-AnnoyingIncantation - Detective
-Desminus - Prison Warden
-Yeehawguvnah - Police Officer
