@@ -23,7 +23,7 @@ maps/Geminus/backup/geminus-2.dmm
 /config/*	
 !/config/*/*
 !config/config.txt
-#config/admins.txt
+config/admins.txt
 #config/access levels.txt
 #config/alienwhitelist.txt
 !config/custom_items.txt
@@ -31,7 +31,7 @@ maps/Geminus/backup/geminus-2.dmm
 #config/dbconfig.txt
 #config/forumdbconfig.txt
 #config/game_options.txt
-#config/mentors.txt
+config/mentors.txt
 #config/jobs.txt
 #config/moderators.txt
 #config/motd.txt
