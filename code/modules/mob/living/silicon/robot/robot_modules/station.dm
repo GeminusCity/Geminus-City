@@ -6,7 +6,6 @@ var/global/list/robot_modules = list(
 	"Miner" 		= /obj/item/weapon/robot_module/robot/miner,
 	"Crisis" 		= /obj/item/weapon/robot_module/robot/medical/crisis,
 	"Surgeon" 		= /obj/item/weapon/robot_module/robot/medical/surgeon,
-	"Security"      = /obj/item/weapon/robot_module/robot/security/general,
 	"Engineering"	= /obj/item/weapon/robot_module/robot/engineering/general,
 //	"Construction"	= /obj/item/weapon/robot_module/robot/engineering/construction,
 	"Janitor" 		= /obj/item/weapon/robot_module/robot/janitor
@@ -479,57 +478,6 @@ var/global/list/robot_modules = list(
 	var/obj/item/stack/material/cyborg/plastic/PL = new (src)
 	PL.synths = list(plastic)
 	src.modules += PL
-
-/obj/item/weapon/robot_module/robot/security
-	name = "security robot module"
-	channels = list("Security" = 1)
-	networks = list(NETWORK_SECURITY)
-	subsystems = list(/mob/living/silicon/proc/subsystem_crew_monitor)
-	can_be_pushed = 0
-	supported_upgrades = list(/obj/item/borg/upgrade/tasercooler)
-
-/obj/item/weapon/robot_module/robot/security/general
-	sprites = list(
-					"M-USE NanoTrasen" = "robotSecy",
-					"Cabeiri" = "eyebot-security",
-					"Cerberus" = "bloodhound",
-					"Cerberus - Treaded" = "treadhound",
-					"CUPCAKE" = "Noble-SEC",
-					"Haruka" = "marinaSC",
-					"Usagi" = "tallred",
-					"Telemachus" = "toiletbotsecurity",
-					"WTOperator" = "sleeksecurity",
-					"XI-GUS" = "spidersec",
-					"XI-ALP" = "heavySec",
-					"Basic" = "secborg",
-					"Black Knight" = "securityrobot",
-					"Drone" = "drone-sec"
-					)
-
-/obj/item/weapon/robot_module/robot/security/general/New()
-	..()
-	src.modules += new /obj/item/weapon/handcuffs/cyborg(src)
-	src.modules += new /obj/item/weapon/melee/baton/robot(src)
-	src.modules += new /obj/item/weapon/gun/energy/taser/mounted/cyborg(src)
-	src.modules += new /obj/item/weapon/gun/energy/taser/xeno/sec/robot(src)
-	src.modules += new /obj/item/taperoll/police(src)
-	src.modules += new /obj/item/weapon/reagent_containers/spray/pepper(src)
-	src.emag = new /obj/item/weapon/gun/energy/laser/mounted(src)
-
-/obj/item/weapon/robot_module/robot/security/respawn_consumable(var/mob/living/silicon/robot/R, var/amount)
-	var/obj/item/device/flash/F = locate() in src.modules
-	if(F.broken)
-		F.broken = 0
-		F.times_used = 0
-		F.icon_state = "flash"
-	else if(F.times_used)
-		F.times_used--
-	var/obj/item/weapon/gun/energy/taser/mounted/cyborg/T = locate() in src.modules
-	if(T.power_supply.charge < T.power_supply.maxcharge)
-		T.power_supply.give(T.charge_cost * amount)
-		T.update_icon()
-	else
-		T.charge_tick = 0
 
 /obj/item/weapon/robot_module/robot/janitor
 	name = "janitorial robot module"
