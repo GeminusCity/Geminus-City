@@ -155,7 +155,7 @@
 			power_usage += CH.power_usage
 
 	// Wireless APC connection exists.
-	if(tesla_link && tesla_link.enabled)
+	if(tesla_link)
 		idle_power_usage = power_usage
 		active_power_usage = idle_power_usage + 100 	// APCLink only charges at 100W rate, but covers any power usage.
 		use_power = 1
