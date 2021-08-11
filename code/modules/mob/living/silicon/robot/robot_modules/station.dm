@@ -6,6 +6,7 @@ var/global/list/robot_modules = list(
 	"Miner" 		= /obj/item/weapon/robot_module/robot/miner,
 	"Crisis" 		= /obj/item/weapon/robot_module/robot/medical/crisis,
 	"Surgeon" 		= /obj/item/weapon/robot_module/robot/medical/surgeon,
+//	"Security"      = /obj/item/weapon/robot_module/robot/security/general,
 	"Engineering"	= /obj/item/weapon/robot_module/robot/engineering/general,
 //	"Construction"	= /obj/item/weapon/robot_module/robot/engineering/construction,
 	"Janitor" 		= /obj/item/weapon/robot_module/robot/janitor
