@@ -2,47 +2,6 @@
 //////////////////////////////////////////////////////////////////
 //						BONE SURGERY							//
 //////////////////////////////////////////////////////////////////
-
-///////////////////////////////////////////////////////////////
-// Bone Glue Surgery
-///////////////////////////////////////////////////////////////
-
-/datum/surgery_step/glue_bone
-	allowed_tools = list(
-	/obj/item/weapon/surgical/bonegel = 100,	\
-	/obj/item/weapon/screwdriver = 75
-	)
-	can_infect = 1
-	blood_level = 1
-
-	min_duration = 50
-	max_duration = 60
-
-/datum/surgery_step/glue_bone/can_use(mob/living/user, mob/living/carbon/human/target, target_zone, obj/item/tool)
-	if (!hasorgans(target))
-		return 0
-	var/obj/item/organ/external/affected = target.get_organ(target_zone)
-	return affected && (affected.robotic < ORGAN_ROBOT) && affected.open >= 2 && affected.stage == 0
-
-/datum/surgery_step/glue_bone/begin_step(mob/user, mob/living/carbon/human/target, target_zone, obj/item/tool)
-	var/obj/item/organ/external/affected = target.get_organ(target_zone)
-	if (affected.stage == 0)
-		user.visible_message("<font color='blue'>[user] starts applying medication to the damaged bones in [target]'s [affected.name] with \the [tool].</font>" , \
-		"<font color='blue'>You start applying medication to the damaged bones in [target]'s [affected.name] with \the [tool].</font>")
-	target.custom_pain("Something in your [affected.name] is causing you a lot of pain!", 50)
-	..()
-
-/datum/surgery_step/glue_bone/end_step(mob/living/user, mob/living/carbon/human/target, target_zone, obj/item/tool)
-	var/obj/item/organ/external/affected = target.get_organ(target_zone)
-	user.visible_message("<font color='blue'>[user] applies some [tool] to [target]'s bone in [affected.name]</font>", \
-		"<font color='blue'>You apply some [tool] to [target]'s bone in [affected.name] with \the [tool].</font>")
-	affected.stage = 1
-
-/datum/surgery_step/glue_bone/fail_step(mob/living/user, mob/living/carbon/human/target, target_zone, obj/item/tool)
-	var/obj/item/organ/external/affected = target.get_organ(target_zone)
-	user.visible_message("<font color='red'>[user]'s hand slips, smearing [tool] in the incision in [target]'s [affected.name]!</font>" , \
-	"<font color='red'>Your hand slips, smearing [tool] in the incision in [target]'s [affected.name]!</font>")
-
 ///////////////////////////////////////////////////////////////
 // Bone Setting Surgery
 ///////////////////////////////////////////////////////////////
@@ -60,7 +19,7 @@
 	if (!hasorgans(target))
 		return 0
 	var/obj/item/organ/external/affected = target.get_organ(target_zone)
-	return affected && affected.organ_tag != BP_HEAD && !(affected.robotic >= ORGAN_ROBOT) && affected.open >= 2 && affected.stage == 1
+	return affected && affected.organ_tag != BP_HEAD && !(affected.robotic >= ORGAN_ROBOT) && affected.open >= 2 && affected.stage == 0
 
 /datum/surgery_step/set_bone/begin_step(mob/user, mob/living/carbon/human/target, target_zone, obj/item/tool)
 	var/obj/item/organ/external/affected = target.get_organ(target_zone)
@@ -74,7 +33,7 @@
 	if (affected.status & ORGAN_BROKEN)
 		user.visible_message("<font color='blue'>[user] sets the bone in [target]'s [affected.name] in place with \the [tool].</font>", \
 			"<font color='blue'>You set the bone in [target]'s [affected.name] in place with \the [tool].</font>")
-		affected.stage = 2
+		affected.stage = 1
 	else
 		user.visible_message("[user] sets the bone in [target]'s [affected.name]<font color='red'> in the WRONG place with \the [tool].</font>", \
 			"You set the bone in [target]'s [affected.name]<font color='red'> in the WRONG place with \the [tool].</font>")
@@ -143,7 +102,7 @@
 	if (!hasorgans(target))
 		return 0
 	var/obj/item/organ/external/affected = target.get_organ(target_zone)
-	return affected && affected.open >= 2 && !(affected.robotic >= ORGAN_ROBOT) && affected.stage == 2
+	return affected && affected.open >= 2 && !(affected.robotic >= ORGAN_ROBOT) && affected.stage == 1
 
 /datum/surgery_step/finish_bone/begin_step(mob/user, mob/living/carbon/human/target, target_zone, obj/item/tool)
 	var/obj/item/organ/external/affected = target.get_organ(target_zone)
@@ -153,10 +112,15 @@
 
 /datum/surgery_step/finish_bone/end_step(mob/living/user, mob/living/carbon/human/target, target_zone, obj/item/tool)
 	var/obj/item/organ/external/affected = target.get_organ(target_zone)
-	user.visible_message("<font color='blue'>[user] has mended the damaged bones in [target]'s [affected.name] with \the [tool].</font>"  , \
+	if (affected.brute_dam < affected.min_broken_damage)
+		user.visible_message("<font color='blue'>[user] has mended the damaged bones in [target]'s [affected.name] with \the [tool].</font>"  , \
 		"<font color='blue'>You have mended the damaged bones in [target]'s [affected.name] with \the [tool].</font>" )
-	affected.status &= ~ORGAN_BROKEN
-	affected.stage = 0
+		affected.status &= ~ORGAN_BROKEN
+		affected.stage = 0
+	else
+		user.visible_message("<font color='red'>[user] tries to finish mending the damaged bones in [target]'s [affected.name] with \the [tool], but the [affected.name] is too damaged!</font>", \
+		"<font color='red'>You try to finish mending the damaged bones in [target]'s [affected.name] with \the [tool], but the [affected.name] is too damaged!</font>")
+
 
 /datum/surgery_step/finish_bone/fail_step(mob/living/user, mob/living/carbon/human/target, target_zone, obj/item/tool)
 	var/obj/item/organ/external/affected = target.get_organ(target_zone)
