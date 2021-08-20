@@ -9,6 +9,8 @@
 	health = 70
 	movement_cooldown = 20
 	poison_resist = 1
+	unsuitable_atoms_damage = 0
+	taser_kill = 0
 
 	melee_damage_lower = 6
 	melee_damage_upper = 12
