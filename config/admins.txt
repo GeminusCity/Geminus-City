@@ -12,7 +12,7 @@
 # n8toe - Developer
 
 
-silene - Host
+FighterOfKeyboard - Host
 TolinKalin - Host
 jsuelieta - Game Admin
 vlad777 - Developer
