@@ -3,7 +3,7 @@
 	desc = "placeholder."
 	icon = 'icons/obj/storage.dmi'
 	icon_state = "secure"
-	
+
 	w_class = ITEMSIZE_TINY
 	starts_with = list(
 		/obj/item/clothing/head/helmet/riot = 1,
