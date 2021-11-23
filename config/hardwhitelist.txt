@@ -6,7 +6,7 @@ silene - Medical Director
 silene - Research Director
 silene - Judge
 silene - District Prosecutor
-silene - Nanotrasen CEO
+fighterofkeyboard - Nanotrasen CEO
 silene - Police Officer
 silene - Detective
 silene - Prison Warden

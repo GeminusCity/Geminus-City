@@ -2359,7 +2359,8 @@
 					/obj/item/weapon/storage/box/shotgunshells = 2,
 					/obj/item/weapon/storage/box/stunshells = 2,
 					/obj/item/weapon/gun/projectile/automatic/sts35 = 2,
-					/obj/item/ammo_magazine/m545 = 4
+					/obj/item/ammo_magazine/m545 = 4,
+					/obj/item/weapon/gun/launcher/teargun = 4
 					)
 
 /obj/machinery/vending/armory/gcpd/energy

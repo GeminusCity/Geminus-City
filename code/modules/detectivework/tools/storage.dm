@@ -66,5 +66,6 @@
         /obj/item/weapon/shield/riot/tele,
         /obj/item/weapon/storage/box/teargas,
         /obj/item/weapon/melee/telebaton,
-		/obj/item/clothing/mask/gas/commando
+		/obj/item/clothing/mask/gas/commando,
+		/obj/item/weapon/reagent_containers/spray/pepper
 	)
