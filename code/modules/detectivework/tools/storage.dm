@@ -57,7 +57,7 @@
 	icon = 'icons/obj/storage.dmi'
 	icon_state = "duffle_sec"
 
-	w_class = ITEMSIZE_TINY
+	w_class = ITEMSIZE_NO_CONTAINER
 	starts_with = list(
 		/obj/item/clothing/head/helmet/riot,
 		/obj/item/clothing/suit/armor/riot,

@@ -1,5 +1,5 @@
 // The below should be used to define an item's w_class variable.
-// Example: w_class = ITENSIZE_LARGE
+// Example: w_class = ITEMSIZE_LARGE
 // This allows the addition of future w_classes without needing to change every file.
 #define ITEMSIZE_TINY				1
 #define ITEMSIZE_SMALL				2
