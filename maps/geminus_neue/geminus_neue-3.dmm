@@ -7332,9 +7332,20 @@
 "MP" = (
 /obj/effect/floor_decal/industrial/outline/grey,
 /obj/structure/closet/crate/secure/weapon{
+	name = "Riot gear";
 	req_access = list(1);
 	will_contain = /obj/item/weapon/storage/box/riot_stuff 
 	},
+/obj/item/weapon/storage/box/riot_stuff,
+/obj/item/weapon/storage/box/riot_stuff,
+/obj/item/weapon/storage/box/riot_stuff,
+/obj/item/weapon/storage/box/riot_stuff,
+/obj/item/weapon/storage/box/riot_stuff,
+/obj/item/weapon/storage/box/riot_stuff,
+/obj/item/weapon/storage/box/riot_stuff,
+/obj/item/weapon/storage/box/riot_stuff,
+/obj/item/weapon/storage/box/riot_stuff,
+/obj/item/weapon/storage/box/riot_stuff,
 /turf/simulated/floor/tiled/techfloor,
 /area/security/armoury)
 "MS" = (
