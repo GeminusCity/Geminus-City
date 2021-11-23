@@ -2361,8 +2361,6 @@
 					/obj/item/weapon/gun/projectile/automatic/sts35 = 2,
 					/obj/item/ammo_magazine/m545 = 4,
 					/obj/item/weapon/reagent_containers/spray/teargun = 3					
-					/obj/item/weapon/reagent_containers/spray/teargun = 1					
-					/obj/item/weapon/reagent_containers/spray/teargun = 1					
 					)
 
 /obj/machinery/vending/armory/gcpd/energy
