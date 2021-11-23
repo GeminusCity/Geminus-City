@@ -2,7 +2,7 @@
 	name = "Riot gear"
 	desc = "placeholder."
 	icon = 'icons/obj/storage.dmi'
-	icon_state = "secure"
+	icon_state = "duffle_sec"
 
 	w_class = ITEMSIZE_TINY
 	starts_with = list(
