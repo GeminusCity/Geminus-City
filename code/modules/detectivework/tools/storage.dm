@@ -59,8 +59,8 @@
 
 	w_class = ITEMSIZE_TINY
 	starts_with = list(
-		/obj/item/clothing/head/helmet/riot = 1,
-		/obj/item/clothing/suit/armor/riot = 1,
+		/obj/item/clothing/head/helmet/riot,
+		/obj/item/clothing/suit/armor/riot,
 		/obj/item/clothing/gloves/arm_guard/riot,
 		/obj/item/clothing/shoes/leg_guard/riot,
         /obj/item/weapon/shield/riot/tele,
