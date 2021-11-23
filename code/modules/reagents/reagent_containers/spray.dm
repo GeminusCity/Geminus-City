@@ -136,6 +136,23 @@
 		return
 	..()
 
+
+/obj/item/weapon/reagent_containers/spray/teargun
+	name ="Tear gas gun"
+	desc = "Most effective crowd-control device in the galaxy"
+	icon = 'icons/obj/gun.dmi'
+	icon_state = "chemsprayer"
+	item_state = "chemsprayer"
+	w_class = ITEMSIZE_LARGE
+	amount_per_transfer_from_this = 10
+	possible_transfer_amounts = null
+	volume = 500
+	matter = list(DEFAULT_WALL_MATERIAL = 4000)
+
+/obj/item/weapon/reagent_containers/spray/teargun/New()
+	..()
+	reagents.add_reagent("condensedcapsaicin", 500)
+
 /obj/item/weapon/reagent_containers/spray/waterflower
 	name = "water flower"
 	desc = "A seemingly innocent sunflower...with a twist."
