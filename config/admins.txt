@@ -13,7 +13,6 @@
 
 
 silene - Host
-fighterofkeyboard - Host
 TolinKalin - Host
 jsuelieta - Game Admin
 vlad777 - Developer
