@@ -685,6 +685,7 @@
 
 	if(.)
 		if(statpanel("Status") && ticker && ticker.current_state != GAME_STATE_PREGAME)
+			stat("Security Level:", get_security_level())
 			stat("Current Time", stationtime2text())
 			stat("Current Date", stationdate2text())
 			stat("Round Duration", roundduration2text())
