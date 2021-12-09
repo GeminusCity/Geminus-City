@@ -384,7 +384,7 @@
 		A.fall_impact(hit_atom, damage_min, damage_max, silent = TRUE)
 
 // Take damage from falling and hitting the ground
-/mob/living/fall_impact(var/atom/hit_atom, var/damage_min = 60, var/damage_max = 100, var/silent = FALSE, var/planetary = FALSE)
+/mob/living/fall_impact(var/atom/hit_atom, var/damage_min_short = 5, var/damage_max_short = 20, var/damage_min_planetary = 60, var/damage_max_planetary = 100, var/silent = FALSE, var/planetary = FALSE)
 	var/turf/landing = get_turf(hit_atom)
 	if(planetary && src.CanParachute())
 		if(!silent)
@@ -406,19 +406,22 @@
 					"You hear something slam into \the [landing].")
 				var/turf/T = get_turf(landing)
 				explosion(T, 0, 1, 2)
+				playsound(loc, "punch", 25, 1, -1)
+				for(var/i = 1 to 10) // Falling from orbit should absolutely fuck you up.
+					adjustBruteLoss(rand(damage_min_planetary, damage_max_planetary))
+				Weaken(4)
+				updatehealth()
 			else
 				visible_message("<span class='warning'>\The [src] falls from above and slams into \the [landing]!</span>", \
 					"<span class='danger'>You fall off and hit \the [landing]!</span>", \
 					"You hear something slam into \the [landing].")
-			playsound(loc, "punch", 25, 1, -1)
+				playsound(loc, "punch", 25, 1, -1)
+				for(var/i = 1 to 5) // Falling from the first floor really shouldn't be as bad as dropping from orbit. 5 * 5-20 averages out at 62.5, which is enough to require medical attention but not ENOUGH TO MAKE YOU EXPLODE
+					adjustBruteLoss(rand(damage_min_short, damage_max_short))
+				Weaken(4)
+				updatehealth()
+			return
 
-		// Because wounds heal rather quickly, 10 (the default for this proc) should be enough to discourage jumping off but not be enough to ruin you, at least for the first time.
-		// Hits 10 times, because apparently targeting individual limbs lets certain species survive the fall from atmosphere
-		for(var/i = 1 to 10)
-			adjustBruteLoss(rand(damage_min, damage_max))
-		Weaken(4)
-		updatehealth()
-		return
 
 //Using /atom/movable instead of /obj/item because I'm not sure what all humans can pick up or wear
 /atom/movable
