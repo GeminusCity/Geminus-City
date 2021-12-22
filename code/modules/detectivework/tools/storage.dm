@@ -50,3 +50,22 @@
 		/obj/item/weapon/csi_marker/n6 = 1,
 		/obj/item/weapon/csi_marker/n7 = 1
 	)
+
+/obj/item/weapon/storage/box/riot_stuff
+	name = "Riot gear"
+	desc = "placeholder."
+	icon = 'icons/obj/storage.dmi'
+	icon_state = "duffle_sec"
+
+	w_class = ITEMSIZE_NO_CONTAINER
+	starts_with = list(
+		/obj/item/clothing/head/helmet/riot,
+		/obj/item/clothing/suit/armor/riot,
+		/obj/item/clothing/gloves/arm_guard/riot,
+		/obj/item/clothing/shoes/leg_guard/riot,
+        /obj/item/weapon/shield/riot/tele,
+        /obj/item/weapon/storage/box/teargas,
+       	/obj/item/weapon/melee/telebaton,
+		/obj/item/clothing/mask/gas/commando,
+		/obj/item/weapon/reagent_containers/spray/pepper
+	)

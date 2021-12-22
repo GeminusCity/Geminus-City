@@ -101,6 +101,9 @@
 /obj/item/weapon/gun/launcher/grenade/underslung/attack_self()
 	return
 
+
+
+
 //load and unload directly into chambered
 /obj/item/weapon/gun/launcher/grenade/underslung/load(obj/item/weapon/grenade/G, mob/user)
 	if(G.loadable)
